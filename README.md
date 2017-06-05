@@ -40,6 +40,7 @@ You can override settings from the shareable config by adding them directly into
 * `3fs/configs/esnext` - ES6 config
 * `3fs/configs/node` - NodeJS config
 * `3fs/configs/ng` - AngularJS config; Requires [eslint-plugin-angular][eslint-plugin-angular]
+* `3fs/configs/react` - [WIP] React config; Requires [eslint-plugin-react][eslint-plugin-react]
 
 
 [//]: # (URLs)
@@ -55,3 +56,4 @@ You can override settings from the shareable config by adding them directly into
 [//]: # (other)
 
 [eslint-plugin-angular]: https://www.npmjs.com/package/eslint-plugin-angular
+[eslint-plugin-react]: https://www.npmjs.com/package/eslint-plugin-react
