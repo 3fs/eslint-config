@@ -1,11 +1,11 @@
-# eslint-config-3fs [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url]
+# eslint-config [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url]
 
 #### An ESLint [Shareable Config][shareable-configs-url]
 
 ## Installation
 
 ```bash
-npm install eslint-config-3fs [eslint]
+npm install eslint-config [eslint]
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ official ESLint website.
 To use this shareable config, first run this:
 
 ```bash
-npm install --save-dev eslint eslint-config-3fs
+npm install --save-dev eslint eslint-config
 ```
 
 Then, add this to your .eslintrc(.js|.json|.yml) file:
@@ -36,21 +36,21 @@ You can override settings from the shareable config by adding them directly into
 
 ### All available configs
 
-* `3fs` - ES5 config
-* `3fs/configs/esnext` - ES6 config
-* `3fs/configs/node` - NodeJS config
-* `3fs/configs/ng` - AngularJS config; Requires [eslint-plugin-angular][eslint-plugin-angular]
-* `3fs/configs/react` - [WIP] React config; Requires [eslint-plugin-react][eslint-plugin-react]
+* `@3fs` - ES5 config
+* `@3fs/eslint-config/configs/esnext` - ES6 config
+* `@3fs/eslint-config/configs/node` - NodeJS config
+* `@3fs/eslint-config/configs/ng` - AngularJS config; Requires [eslint-plugin-angular][eslint-plugin-angular]
+* `@3fs/eslint-config/configs/react` - [WIP] React config; Requires [eslint-plugin-react][eslint-plugin-react]
 
 
 [//]: # (URLs)
 
 [//]: # (main)
 
-[npm-image]: https://img.shields.io/npm/v/@3fs/eslint-config-3fs.svg
-[npm-url]: https://npmjs.org/package/@3fs/eslint-config-3fs
-[downloads-image]: https://img.shields.io/npm/dm/@3fs/eslint-config-3fs.svg
-[downloads-url]: https://npmjs.org/package/@3fs/eslint-config-3fs
+[npm-image]: https://img.shields.io/npm/v/@3fs/eslint-config.svg
+[npm-url]: https://npmjs.org/package/@3fs/eslint-config
+[downloads-image]: https://img.shields.io/npm/dm/@3fs/eslint-config.svg
+[downloads-url]: https://npmjs.org/package/@3fs/eslint-config
 [shareable-configs-url]: http://eslint.org/docs/developer-guide/shareable-configs
 
 [//]: # (other)

@@ -1,5 +1,5 @@
 module.exports = {
-    'extends': ['3fs/configs/esnext'],
+    'extends': '@3fs/eslint-config/configs/esnext',
     'parserOptions': {
         'ecmaFeatures': {
             'jsx': true

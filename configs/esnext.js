@@ -1,5 +1,5 @@
 module.exports = {
-    'extends': '3fs',
+    'extends': '@3fs',
     'parserOptions': {
         'ecmaVersion': 8,
         'ecmaFeatures': { 'experimentalObjectRestSpread': true },

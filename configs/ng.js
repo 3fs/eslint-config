@@ -1,5 +1,5 @@
 module.exports = {
-    'extends': '3fs',
+    'extends': '@3fs',
     'globals': { 'angular': true },
     'plugins': [
         'angular'
