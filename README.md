@@ -25,7 +25,7 @@ Then, add this to your .eslintrc(.js|.json|.yml) file:
 
 ```
 {
-  "extends": "3fs"
+  "extends": "@3fs"
 }
 ```
 
