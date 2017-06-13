@@ -1,5 +1,5 @@
 {
-  "name": "@3fs/eslint-config-3fs",
+  "name": "@3fs/eslint-config",
   "version": "0.0.1",
   "description": "3fs ESLint Config",
   "main": "index.js",
