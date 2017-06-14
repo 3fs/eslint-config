@@ -41,6 +41,8 @@ You can override settings from the shareable config by adding them directly into
 * `@3fs/eslint-config/configs/node` - NodeJS config
 * `@3fs/eslint-config/configs/ng` - AngularJS config; Requires [eslint-plugin-angular][eslint-plugin-angular]
 * `@3fs/eslint-config/configs/react` - [WIP] React config; Requires [eslint-plugin-react][eslint-plugin-react]
+* `@3fs/eslint-config/configs/ts` - [WIP] TypeScript config; Requires [typescript-eslint-parser][typescript-eslint-parser] and [eslint-plugin-typescript][eslint-plugin-typescript]
+
 
 
 [//]: # (URLs)
@@ -57,3 +59,5 @@ You can override settings from the shareable config by adding them directly into
 
 [eslint-plugin-angular]: https://www.npmjs.com/package/eslint-plugin-angular
 [eslint-plugin-react]: https://www.npmjs.com/package/eslint-plugin-react
+[typescript-eslint-parser]: https://www.npmjs.com/package/typescript-eslint-parser
+[eslint-plugin-typescript]: https://www.npmjs.com/package/eslint-plugin-typescript
