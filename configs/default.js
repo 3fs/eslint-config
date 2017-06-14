@@ -1,7 +1,5 @@
 module.exports = {
-    'env': {
-        'browser': true
-    },
+    'env': { 'browser': true },
     'rules': {
         'accessor-pairs': 'error',
         'array-bracket-spacing': 'off',
@@ -14,7 +12,7 @@ module.exports = {
         'block-scoped-var': 'error',
         'callback-return': 'off',
         'capitalized-comments': 'off',
-        'class-methods-use-this': 'error',
+        'class-methods-use-this': 'off',
         'complexity': 'off',
         'computed-property-spacing': ['error', 'never'],
         'consistent-return': ['error', { 'treatUndefinedAsUnspecified': true }],
@@ -45,7 +43,7 @@ module.exports = {
         'generator-star-spacing': ['error', { 'before': true, 'after': true }],
         'guard-for-in': 'off',
         'handle-callback-err': ['error', '^(err|error)$'],
-        'indent': ['error', 2, { 'SwitchCase': 1 }],
+        'indent': ['error', 4, { 'SwitchCase': 1 }],
         'id-blacklist': 'off',
         'id-length': 'off',
         'id-match': 'off',
@@ -77,7 +75,7 @@ module.exports = {
         'no-alert': 'error',
         'no-await-in-loop': 'error',
         'no-bitwise': 'error',
-        'no-buffer-constructor': 'off', // TODO ...
+        'no-buffer-constructor': 'off',
         'no-case-declarations': 'error',
         'no-catch-shadow': 'error',
         'no-confusing-arrow': 'error',
@@ -210,9 +208,19 @@ module.exports = {
         'no-unreachable': 'error',
         'no-unsafe-finally': 'error',
         'no-unsafe-negation': 'error',
-        'no-unused-expressions': ['error', { 'allowShortCircuit': true, 'allowTernary': true, 'allowTaggedTemplates': true }],
-        'no-unused-vars': ['error', { 'vars': 'all', 'args': 'none', 'ignoreRestSiblings': true }],
-        'no-use-before-define': ['error', { 'functions': false, 'classes': false, 'variables': false }],
+        'no-unused-expressions': ['error', {
+            'allowShortCircuit': true,
+            'allowTernary': true,
+            'allowTaggedTemplates': true
+        }],
+        'no-unused-vars': ['error', {
+            'vars': 'all',
+            'args': 'none',
+            'ignoreRestSiblings': true
+        }],
+        'no-use-before-define': ['error', {
+            'functions': false, 'classes': false, 'variables': false
+        }],
         'no-useless-call': 'error',
         'no-useless-computed-key': 'error',
         'no-useless-constructor': 'error',
@@ -221,11 +229,21 @@ module.exports = {
         'no-useless-return': 'error',
         'no-whitespace-before-property': 'error',
         'no-with': 'error',
-        'object-curly-newline': ['error', { 'multiline': true }],
+        'object-curly-newline': ['error', {
+            'ObjectExpression': {
+                'multiline': true,
+                'minProperties': 3
+            },
+            'ObjectPattern': 'never'
+        }],
         'object-property-newline': ['error', { 'allowMultiplePropertiesPerLine': true }],
         'one-var': ['error', 'always'],
         'operator-linebreak': ['error', 'after', { 'overrides': { '?': 'before', ':': 'before' } }],
-        'padded-blocks': ['error', { 'blocks': 'never', 'switches': 'never', 'classes': 'never' }],
+        'padded-blocks': ['error', {
+            'blocks': 'never',
+            'switches': 'never',
+            'classes': 'never'
+        }],
         'prefer-promise-reject-errors': 'error',
         'object-shorthand': ['error', 'never'],
         'one-var-declaration-per-line': 'off',
@@ -260,7 +278,11 @@ module.exports = {
         'spaced-comment': [
             'error', 'always', {
                 'line': { 'markers': ['*package', '!', '/', ','] },
-                'block': { 'balanced': true, 'markers': ['*package', '!', ',', ':', '::', 'flow-include'], 'exceptions': ['*'] }
+                'block': {
+                    'balanced': true,
+                    'markers': ['*package', '!', ',', ':', '::', 'flow-include'],
+                    'exceptions': ['*']
+                }
             }
         ],
         'symbol-description': 'error',
