@@ -43,7 +43,7 @@ module.exports = {
         'generator-star-spacing': ['error', { 'before': true, 'after': true }],
         'guard-for-in': 'off',
         'handle-callback-err': ['error', '^(err|error)$'],
-        'indent': ['error', 4, { 'SwitchCase': 1 }],
+        'indent': ['error', 2, { 'SwitchCase': 1 }],
         'id-blacklist': 'off',
         'id-length': 'off',
         'id-match': 'off',
