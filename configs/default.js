@@ -8,7 +8,7 @@ module.exports = {
         'arrow-parens': ['error', 'always'],
         'arrow-spacing': ['error', { 'before': true, 'after': true }],
         'block-spacing': ['error', 'always'],
-        'brace-style': ['error', 'stroustrup', { 'allowSingleLine': true }],
+        'brace-style': ['error', '1tbs', { 'allowSingleLine': true }],
         'block-scoped-var': 'error',
         'callback-return': 'off',
         'capitalized-comments': 'off',
