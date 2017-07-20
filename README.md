@@ -4,8 +4,8 @@
 
 ## Installation
 
-```bash
-npm install @3fs/eslint-config [eslint]
+```shell
+npm install @3fs/eslint-config [eslint@3.19.0]
 ```
 
 ## Usage
@@ -17,13 +17,13 @@ official ESLint website.
 
 To use this shareable config, first run this:
 
-```bash
-npm install --save-dev eslint @3fs/eslint-config
+```shell
+npm install --save-dev eslint@3.19.0 @3fs/eslint-config
 ```
 
 Then, add this to your .eslintrc(.js|.json|.yml) file:
 
-```
+```json
 {
   "extends": "@3fs"
 }
