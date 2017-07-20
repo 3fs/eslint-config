@@ -1,10 +1,10 @@
 module.exports = {
-    'extends': '@3fs/eslint-config/configs/esnext',
-    'parser': 'typescript-eslint-parser',
-    'plugins': [
+    extends: '@3fs/eslint-config/configs/esnext',
+    parser: 'typescript-eslint-parser',
+    plugins: [
         'typescript'
     ],
-    'rules': {
+    rules: {
         'typescript/type-annotation-spacing': 'error',
         'typescript/explicit-member-accessibility': 'off',
         'typescript/interface-name-prefix': ['error', 'never'],
