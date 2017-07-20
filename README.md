@@ -4,7 +4,7 @@
 
 ## Installation
 
-```shell
+```sh
 npm install @3fs/eslint-config [eslint@3.19.0]
 ```
 
@@ -17,7 +17,7 @@ official ESLint website.
 
 To use this shareable config, first run this:
 
-```shell
+```sh
 npm install --save-dev eslint@3.19.0 @3fs/eslint-config
 ```
 
@@ -42,7 +42,7 @@ You can override settings from the shareable config by adding them directly into
 * `@3fs/eslint-config/configs/node-esnext` - ES6+ NodeJS config (might be renamed to `node` in future)
 * `@3fs/eslint-config/configs/ng` - AngularJS config; Requires [eslint-plugin-angular][eslint-plugin-angular]
 * `@3fs/eslint-config/configs/react` - React config; Requires [eslint-plugin-react][eslint-plugin-react], [eslint-plugin-jsx-a11y][eslint-plugin-jsx-a11y]
-* `@3fs/eslint-config/configs/ts` - TypeScript config; Requires [typescript-eslint-parser][typescript-eslint-parser] (has bugs: [#77][typescript-parser-bug-1] and [#224][typescript-parser-bug-1]) and [eslint-plugin-typescript][eslint-plugin-typescript]
+* `@3fs/eslint-config/configs/ts` - TypeScript config; Requires [typescript-eslint-parser][typescript-eslint-parser] (has bugs: [#77][typescript-parser-bug-1] and [#224][typescript-parser-bug-2]) and [eslint-plugin-typescript][eslint-plugin-typescript]
 
 
 
