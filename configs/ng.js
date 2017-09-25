@@ -1,11 +1,13 @@
 module.exports = {
   extends: '@3fs',
   globals: { 'angular': true },
-  plugins: [
-    'angular'
-  ],
+  plugins: ['angular'],
   rules: {
-    'consistent-this': ['error', 'vm', 'svc'],
+    'consistent-this': [
+      'error',
+      'vm',
+      'svc'
+    ],
     'max-params': 'off',
 
     // AngularJS Plugin TODO: Clean this up
@@ -47,12 +49,23 @@ module.exports = {
     'angular/no-cookiestore': 2,
     'angular/no-jquery-angularelement': 2,
     'angular/no-service-method': 0,
-    'angular/no-services': [2, ['$http', '$resource', 'Restangular']],
+    'angular/no-services': [
+      2,
+      [
+        '$http',
+        '$resource',
+        'Restangular'
+      ]
+    ],
     'angular/on-watch': 2,
     'angular/on-destroy': 2,
     'angular/rest-service': [2, '$http'],
     'angular/no-http-callback': 2,
-    'angular/service-name': [2, '/[A-Z].*Svc/', { 'oldBehavior': false }],
+    'angular/service-name': [
+      2,
+      '/[A-Z].*Svc/',
+      { 'oldBehavior': false }
+    ],
     'angular/factory-name': 2,
     'angular/provider-name': 2,
     'angular/value-name': 2,
