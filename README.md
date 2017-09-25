@@ -5,7 +5,7 @@
 ## Installation
 
 ```sh
-npm install @3fs/eslint-config [eslint@3.19.0]
+npm install @3fs/eslint-config [eslint@4.7.2]
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ official ESLint website.
 To use this shareable config, first run this:
 
 ```sh
-npm install --save-dev eslint@3.19.0 @3fs/eslint-config
+npm install --save-dev eslint@4.7.2 @3fs/eslint-config
 ```
 
 Then, add this to your .eslintrc(.js|.json|.yml) file:
@@ -29,7 +29,7 @@ Then, add this to your .eslintrc(.js|.json|.yml) file:
 }
 ```
 
-*Note: We omitted the `/eslint-config` prefix since it is automatically assumed by ESLint. Only works for defualt*
+*Note: We omitted the `/eslint-config` sufix since it is automatically assumed by ESLint. Only works for defualt*
 
 You can override settings from the shareable config by adding them directly into your
 `.eslintrc` file.
@@ -42,7 +42,7 @@ You can override settings from the shareable config by adding them directly into
 * `@3fs/eslint-config/configs/node-esnext` - ES6+ NodeJS config (might be renamed to `node` in future)
 * `@3fs/eslint-config/configs/ng` - AngularJS config; Requires [eslint-plugin-angular][eslint-plugin-angular]
 * `@3fs/eslint-config/configs/react` - React config; Requires [eslint-plugin-react][eslint-plugin-react], [eslint-plugin-jsx-a11y][eslint-plugin-jsx-a11y]
-* `@3fs/eslint-config/configs/ts` - TypeScript config; Requires [typescript-eslint-parser][typescript-eslint-parser] (has bugs: [#77][typescript-parser-bug-1] and [#224][typescript-parser-bug-2]) and [eslint-plugin-typescript][eslint-plugin-typescript]
+* `@3fs/eslint-config/configs/ts` - TypeScript config; Requires [typescript-eslint-parser][typescript-eslint-parser] (has a bug: [#77][typescript-parser-bug-1]) and [eslint-plugin-typescript][eslint-plugin-typescript]
 
 
 
@@ -67,4 +67,3 @@ You can override settings from the shareable config by adding them directly into
 [//]: # (TS bugs)
 
 [typescript-parser-bug-1]: https://github.com/eslint/typescript-eslint-parser/issues/77
-[typescript-parser-bug-2]: https://github.com/eslint/typescript-eslint-parser/issues/224
