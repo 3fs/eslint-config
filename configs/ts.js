@@ -3,8 +3,11 @@ module.exports = {
   parser: 'typescript-eslint-parser',
   plugins: ['typescript'],
   rules: {
+    'dot-notation': 'off',
+
     'typescript/type-annotation-spacing': 'error',
     'typescript/explicit-member-accessibility': 'off',
+    'typescript/no-unused-vars': 'off',
     'typescript/interface-name-prefix': ['error', 'never'],
     'typescript/no-triple-slash-reference': 'error',
     'typescript/no-explicit-any': 'off',
