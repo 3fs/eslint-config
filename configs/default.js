@@ -300,7 +300,7 @@ module.exports = {
       }
     ],
     'prefer-promise-reject-errors': 'error',
-    'object-shorthand': ['error', 'consistent-as-needed'],
+    'object-shorthand': ['error', 'always'],
     'one-var-declaration-per-line': 'off',
     'operator-assignment': ['error', 'always'],
     'prefer-arrow-callback': 'off',
