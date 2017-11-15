@@ -111,7 +111,7 @@ module.exports = {
     'no-duplicate-imports': 'error',
     'no-else-return': 'off',
     'no-empty': 'error',
-    'no-empty-function': 'error',
+    'no-empty-function': ['error', { 'allow': ['arrowFunctions'] }],
     'no-eq-null': 'error',
     'no-extra-label': 'off',
     'no-extra-semi': 'error',
@@ -300,7 +300,7 @@ module.exports = {
       }
     ],
     'prefer-promise-reject-errors': 'error',
-    'object-shorthand': ['error', 'never'],
+    'object-shorthand': ['error', 'consistent-as-needed'],
     'one-var-declaration-per-line': 'off',
     'operator-assignment': ['error', 'always'],
     'prefer-arrow-callback': 'off',
