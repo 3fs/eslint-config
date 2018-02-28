@@ -3,7 +3,7 @@ module.exports = {
   rules: {
     'accessor-pairs': 'error',
     'array-bracket-spacing': 'off',
-    'array-bracket-newline': ['error', { 'multiline': true }],
+    'array-bracket-newline': ['error', 'consistent'],
     'array-element-newline': ['error', { 'multiline': true, 'minItems': 3 }],
     'array-callback-return': 'error',
     'arrow-body-style': ['error', 'as-needed'],
@@ -275,14 +275,7 @@ module.exports = {
     'no-whitespace-before-property': 'error',
     'no-with': 'error',
     'object-curly-newline': [
-      'error',
-      {
-        'ObjectExpression': {
-          'multiline': true,
-          'minProperties': 3
-        },
-        'ObjectPattern': 'never'
-      }
+      'error', { 'consistent': true }
     ],
     'object-property-newline': ['error', { 'allowMultiplePropertiesPerLine': true }],
     'one-var': ['error', 'always'],
