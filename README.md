@@ -18,7 +18,7 @@ official ESLint website.
 To use this shareable config, first run this:
 
 ```sh
-npm install --save-dev eslint@4.18.1 @3fs/eslint-config
+npm install --save-dev eslint@4.19.1 @3fs/eslint-config
 ```
 
 Then, add this to your .eslintrc(.js|.json|.yml) file:
