@@ -259,7 +259,7 @@ module.exports = {
       'error',
       {
         'vars': 'all',
-        'args': 'none',
+        'args': 'after-used',
         'ignoreRestSiblings': true
       }
     ],

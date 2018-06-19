@@ -1,0 +1,6 @@
+{
+  "extends": "@3fs/eslint-config/configs/node-es5",
+  "rules": {
+    "quote-props": ["error", "consistent"]
+  }
+}
