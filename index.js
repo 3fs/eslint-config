@@ -1,1 +1,1 @@
-module.exports = require('./configs/default');
+module.exports = require('./configs/esnext');

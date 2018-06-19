@@ -1,5 +1,5 @@
 module.exports = {
-  extends: '@3fs/eslint-config/configs/esnext',
+  extends: '@3fs',
   plugins: ['jsx-a11y'],
   // View link below for a11y rules documentation
   // https://github.com/evcohen/eslint-plugin-jsx-a11y#supported-rules

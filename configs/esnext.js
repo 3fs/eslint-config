@@ -1,5 +1,5 @@
 module.exports = {
-  extends: '@3fs',
+  extends: '@3fs/eslint-config/configs/defaults',
   env: { 'es6': true },
   parserOptions: {
     ecmaVersion: 8,

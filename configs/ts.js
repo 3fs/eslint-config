@@ -1,5 +1,5 @@
 module.exports = {
-  extends: '@3fs/eslint-config/configs/esnext',
+  extends: '@3fs',
   parser: 'typescript-eslint-parser',
   plugins: ['typescript'],
   rules: {

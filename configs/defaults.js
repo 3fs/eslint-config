@@ -1,5 +1,4 @@
 module.exports = {
-  env: { 'browser': true },
   rules: {
     'accessor-pairs': 'error',
     'array-bracket-spacing': 'off',
@@ -55,6 +54,7 @@ module.exports = {
     'func-names': 'off',
     'func-style': 'off',
     'func-call-spacing': ['error', 'never'],
+    'function-paren-newline': ['error', 'multiline'],
     'for-direction': 'error',
     'generator-star-spacing': ['error', { 'before': true, 'after': true }],
     'guard-for-in': 'off',
@@ -68,6 +68,7 @@ module.exports = {
     'id-blacklist': 'off',
     'id-length': 'off',
     'id-match': 'off',
+    'implicit-arrow-linebreak': ['error', 'beside'],
     'indent-legacy': 'off',
     'init-declarations': 'off',
     'jsx-quotes': 'off',
@@ -78,6 +79,7 @@ module.exports = {
     'linebreak-style': 'off',
     'lines-around-comment': 'off',
     'lines-around-directive': 'off',
+    'lines-between-class-members': ['error', 'always'],
     'max-depth': ['error', 4],
     'max-len': [
       2,
@@ -94,6 +96,7 @@ module.exports = {
     'max-params': ['error', 5],
     'max-statements': 'off',
     'max-statements-per-line': ['error', { 'max': 1 }],
+    'multiline-comment-style': ['error', 'starred-block'],
     'multiline-ternary': 'off',
     'newline-after-var': 'off',
     'newline-before-return': 'error',

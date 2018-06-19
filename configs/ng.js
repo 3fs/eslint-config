@@ -1,5 +1,5 @@
 module.exports = {
-  extends: '@3fs',
+  extends: '@3fs/eslint-config/configs/es5',
   globals: { 'angular': true },
   plugins: ['angular'],
   rules: {
