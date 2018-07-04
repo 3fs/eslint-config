@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "find-missing-rules": "eslint-find-rules -un",
-    "patch": "npm version patch"
+    "find-missing-rules": "eslint-find-rules -dunp",
+    "patch": "yarn version --patch"
   },
   "repository": {
     "type": "git",
@@ -20,10 +20,10 @@
   },
   "homepage": "https://github.com/3fs/eslint-config#readme",
   "devDependencies": {
-    "eslint": "^4.19.1",
+    "eslint": "^5.0.1",
     "eslint-find-rules": "^3.2.3"
   },
   "peerDependencies": {
-    "eslint": ">=4.19.1"
+    "eslint": ">=5.0.1"
   }
 }

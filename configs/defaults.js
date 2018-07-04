@@ -69,7 +69,6 @@ module.exports = {
     'id-length': 'off',
     'id-match': 'off',
     'implicit-arrow-linebreak': ['error', 'beside'],
-    'indent-legacy': 'off',
     'init-declarations': 'off',
     'jsx-quotes': 'off',
     'key-spacing': ['error', { 'beforeColon': false, 'afterColon': true }],
@@ -78,11 +77,11 @@ module.exports = {
     'line-comment-position': ['off', { 'position': 'above' }],
     'linebreak-style': 'off',
     'lines-around-comment': 'off',
-    'lines-around-directive': 'off',
     'lines-between-class-members': ['error', 'always'],
+    'max-classes-per-file': ['error', 1],
     'max-depth': ['error', 4],
     'max-len': [
-      2,
+      'error',
       170,
       4,
       {
@@ -92,14 +91,20 @@ module.exports = {
       }
     ],
     'max-lines': 'off',
+    'max-lines-per-function': [
+      'error',
+      {
+        'max': 40,
+        'skipComments': true,
+        'skipBlankLines': true
+      }
+    ],
     'max-nested-callbacks': ['error', 3],
     'max-params': ['error', 5],
     'max-statements': 'off',
     'max-statements-per-line': ['error', { 'max': 1 }],
     'multiline-comment-style': ['error', 'starred-block'],
     'multiline-ternary': 'off',
-    'newline-after-var': 'off',
-    'newline-before-return': 'error',
     'newline-per-chained-call': ['error', { 'ignoreChainWithDepth': 2 }],
     'no-alert': 'error',
     'no-await-in-loop': 'error',
@@ -127,7 +132,6 @@ module.exports = {
     'no-magic-numbers': 'off',
     'no-mixed-requires': 'off',
     'no-multi-assign': 'off',
-    'no-native-reassign': 'off',
     'no-negated-condition': 'error',
     'no-nested-ternary': 'error',
     'no-param-reassign': 'error',
@@ -142,7 +146,6 @@ module.exports = {
     'no-restricted-syntax': 'off',
     'no-script-url': 'error',
     'no-shadow': 'error',
-    'no-spaced-func': 'error',
     'no-sync': 'off',
     'no-ternary': 'off',
     'no-undefined': 'off',
@@ -213,7 +216,6 @@ module.exports = {
     'no-multi-spaces': 'error',
     'no-multi-str': 'error',
     'no-multiple-empty-lines': ['error', { 'max': 1, 'maxEOF': 0 }],
-    'no-negated-in-lhs': 'error',
     'no-new': 'error',
     'no-new-func': 'error',
     'no-new-object': 'error',
@@ -295,6 +297,7 @@ module.exports = {
         'classes': 'never'
       }
     ],
+    'prefer-object-spread': 'error',
     'prefer-promise-reject-errors': 'error',
     'object-shorthand': ['error', 'always'],
     'one-var-declaration-per-line': 'off',
@@ -303,7 +306,6 @@ module.exports = {
     'prefer-const': 'off',
     'prefer-destructuring': 'off',
     'prefer-numeric-literals': 'off',
-    'prefer-reflect': 'off',
     'prefer-rest-params': 'off',
     'prefer-spread': 'off',
     'prefer-template': 'off',
