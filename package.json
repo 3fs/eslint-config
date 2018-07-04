@@ -20,10 +20,10 @@
   },
   "homepage": "https://github.com/3fs/eslint-config#readme",
   "devDependencies": {
-    "eslint": "^5.0.1",
+    "eslint": "5.0.1",
     "eslint-find-rules": "^3.2.3"
   },
   "peerDependencies": {
-    "eslint": ">=5.0.1"
+    "eslint": "=5.0.1"
   }
 }
