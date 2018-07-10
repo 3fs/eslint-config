@@ -2,8 +2,7 @@ module.exports = {
   extends: '@3fs/eslint-config/configs/defaults',
   env: { 'es6': true },
   parserOptions: {
-    ecmaVersion: 8,
-    ecmaFeatures: { 'experimentalObjectRestSpread': true },
+    ecmaVersion: 9,
     sourceType: 'module'
   },
   rules: {
