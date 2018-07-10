@@ -111,7 +111,6 @@ module.exports = {
     'no-bitwise': 'error',
     'no-buffer-constructor': 'off',
     'no-case-declarations': 'error',
-    'no-catch-shadow': 'error',
     'no-confusing-arrow': 'error',
     'no-console': 'error',
     'no-continue': 'off',
