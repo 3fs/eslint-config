@@ -3,7 +3,7 @@ module.exports = {
     'accessor-pairs': 'error',
     'array-bracket-spacing': 'off',
     'array-bracket-newline': ['error', 'consistent'],
-    'array-element-newline': ['error', { 'multiline': true, 'minItems': 3 }],
+    'array-element-newline': ['error', 'consistent'],
     'array-callback-return': 'error',
     'arrow-body-style': ['error', 'as-needed'],
     'arrow-parens': ['error', 'always'],
