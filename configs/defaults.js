@@ -92,7 +92,7 @@ module.exports = {
     ],
     'max-lines': 'off',
     'max-lines-per-function': [
-      'error',
+      'warn',
       {
         'max': 40,
         'skipComments': true,
