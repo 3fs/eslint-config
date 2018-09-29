@@ -25,7 +25,6 @@ module.exports = {
       }
     ],
     'jsx-a11y/img-redundant-alt': 'error',
-    'jsx-a11y/label-has-for': ['error', { components: ['label'] }],
     'jsx-a11y/mouse-events-have-key-events': 'off',
     'jsx-a11y/no-access-key': 'error',
     'jsx-a11y/no-onchange': 'off',
@@ -35,6 +34,7 @@ module.exports = {
     'jsx-a11y/tabindex-no-positive': 'error',
     'jsx-a11y/heading-has-content': ['error', { components: [''] }],
     'jsx-a11y/html-has-lang': 'error',
+    'jsx-a11y/label-has-associated-control': 'error',
     'jsx-a11y/lang': 'error',
     'jsx-a11y/no-distracting-elements': ['error', { elements: ['marquee', 'blink'] }],
     'jsx-a11y/scope': 'error',

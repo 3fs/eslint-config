@@ -40,7 +40,12 @@ module.exports = {
       }
     ],
 
+    // REACT RULES
+    'react/boolean-prop-naming': ['error', { rule: '^(is|has)[A-Z]([A-Za-z0-9]?)+' }],
+    'react/button-has-type': 'error',
+    'react/destructuring-assignment': 'error',
     'react/display-name': ['off', { ignoreTranspilerName: false }],
+    'react/forbid-dom-props': 'off',
     'react/forbid-prop-types': [
       'error',
       {
@@ -186,7 +191,17 @@ module.exports = {
         afterOpening: 'never'
       }
     ],
-    'react/jsx-space-before-closing': ['off', 'always'],
+    'react/jsx-child-element-spacing': 'error',
+    'react/jsx-curly-brace-presence': ['error', { props: 'always', children: 'always' }],
+    'react/jsx-max-depth': ['error', { 'max': 2 }],
+    'react/jsx-one-expression-per-line': ['error', { allow: 'none' }],
+    'react/jsx-props-no-multi-spaces': 'error',
+    'react/jsx-sort-default-props': 'off',
+    'react/no-access-state-in-setstate': 'error',
+    'react/no-this-in-sfc': 'error',
+    'react/no-typos': 'error',
+    'react/no-unsafe': 'error',
+    'react/no-unused-state': 'error',
     'react/no-array-index-key': 'error',
     'react/require-default-props': 'error',
     'react/forbid-foreign-prop-types': 'off',

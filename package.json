@@ -5,8 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "patch": "yarn version --patch",
     "find-missing-rules": "eslint-find-rules -dunp",
-    "patch": "yarn version --patch"
+    "find-missing-rules:es5": "eslint-find-rules -dunp ./configs/jsx.js",
+    "find-missing-rules:esnext": "eslint-find-rules -dunp ./configs/esnext.js",
+    "find-missing-rules:a11y": "eslint-find-rules -dunp ./configs/jsx-a11y.js",
+    "find-missing-rules:ng": "eslint-find-rules -dunp ./configs/ng.js",
+    "find-missing-rules:node": "eslint-find-rules -dunp ./configs/node.js",
+    "find-missing-rules:node-es5": "eslint-find-rules -dunp ./configs/node-es5.js",
+    "find-missing-rules:react": "eslint-find-rules -dunp ./configs/react.js",
+    "find-missing-rules:ts": "eslint-find-rules -dunp ./configs/ts.js"
   },
   "repository": {
     "type": "git",
@@ -22,7 +30,9 @@
   "devDependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "5.6.1",
-    "eslint-find-rules": "^3.2.3"
+    "eslint-find-rules": "^3.2.3",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1"
   },
   "peerDependencies": {
     "eslint": "=5.6.1"
