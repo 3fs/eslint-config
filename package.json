@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "patch": "yarn version --patch",
     "find-missing-rules": "eslint-find-rules -dunp",
+    "find-missing-rules:default": "eslint-find-rules -dunp ./configs/default.js",
     "find-missing-rules:es5": "eslint-find-rules -dunp ./configs/jsx.js",
     "find-missing-rules:esnext": "eslint-find-rules -dunp ./configs/esnext.js",
     "find-missing-rules:a11y": "eslint-find-rules -dunp ./configs/jsx-a11y.js",
