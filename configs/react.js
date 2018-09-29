@@ -41,7 +41,7 @@ module.exports = {
     ],
 
     // REACT RULES
-    'react/boolean-prop-naming': ['error', { rule: '^(is|has)[A-Z]([A-Za-z0-9]?)+' }],
+    'react/boolean-prop-naming': 'off',
     'react/button-has-type': 'error',
     'react/destructuring-assignment': 'error',
     'react/display-name': ['off', { ignoreTranspilerName: false }],
@@ -192,7 +192,7 @@ module.exports = {
       }
     ],
     'react/jsx-child-element-spacing': 'error',
-    'react/jsx-curly-brace-presence': ['error', { props: 'always', children: 'always' }],
+    'react/jsx-curly-brace-presence': ['error', { props: 'always', children: 'never' }],
     'react/jsx-max-depth': ['error', { 'max': 2 }],
     'react/jsx-one-expression-per-line': ['error', { allow: 'none' }],
     'react/jsx-props-no-multi-spaces': 'error',
