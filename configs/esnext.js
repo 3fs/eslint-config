@@ -1,6 +1,7 @@
 module.exports = {
   extends: '@3fs/eslint-config/configs/defaults',
   env: { 'es6': true },
+  parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 9,
     sourceType: 'module'

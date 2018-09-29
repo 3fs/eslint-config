@@ -36,12 +36,12 @@ You can override settings from the shareable config by adding them directly into
 
 ### All available configs
 
-* `@3fs` or `@3fs/eslint-config/configs/esnext` - ES6+ config
+* `@3fs` or `@3fs/eslint-config/configs/esnext` - ES6+ config; Requires [babel-eslint][babel-eslint]
 * `@3fs/eslint-config/configs/es5` - ES5 config
-* `@3fs/eslint-config/configs/node` - ES6+ NodeJS config
+* `@3fs/eslint-config/configs/node` - ES6+ NodeJS config; Requires [babel-eslint][babel-eslint]
 * `@3fs/eslint-config/configs/node-es5` - ES5 NodeJS config
 * `@3fs/eslint-config/configs/ng` - AngularJS config; Requires [eslint-plugin-angular][eslint-plugin-angular]
-* `@3fs/eslint-config/configs/react` - React config; Requires [eslint-plugin-react][eslint-plugin-react], [eslint-plugin-jsx-a11y][eslint-plugin-jsx-a11y]
+* `@3fs/eslint-config/configs/react` - React config; Requires [babel-eslint][babel-eslint],[eslint-plugin-react][eslint-plugin-react], [eslint-plugin-jsx-a11y][eslint-plugin-jsx-a11y]
 * `@3fs/eslint-config/configs/ts` - TypeScript config; Requires [typescript-eslint-parser][typescript-eslint-parser] (has `no-undef` bug: [#416][typescript-parser-bug-1]) and [eslint-plugin-typescript][eslint-plugin-typescript]
 
 
@@ -58,6 +58,7 @@ You can override settings from the shareable config by adding them directly into
 
 [//]: # (other)
 
+[babel-eslint]: https://www.npmjs.com/package/babel-eslint
 [eslint-plugin-angular]: https://www.npmjs.com/package/eslint-plugin-angular
 [eslint-plugin-react]: https://www.npmjs.com/package/eslint-plugin-react
 [eslint-plugin-jsx-a11y]: https://www.npmjs.com/package/eslint-plugin-jsx-a11y

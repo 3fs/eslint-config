@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/3fs/eslint-config#readme",
   "devDependencies": {
+    "babel-eslint": "^10.0.1",
     "eslint": "5.1.0",
     "eslint-find-rules": "^3.2.3"
   },
