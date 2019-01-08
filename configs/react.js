@@ -162,6 +162,7 @@ module.exports = {
       }
     ],
     'react/jsx-first-prop-new-line': ['error', 'multiline-multiprop'],
+    'react/jsx-fragments': ['error', 'element'],
     'react/jsx-equals-spacing': ['error', 'never'],
     'react/jsx-indent': ['error', 2],
     'react/jsx-no-target-blank': 'error',

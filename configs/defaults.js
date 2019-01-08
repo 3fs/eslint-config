@@ -273,6 +273,7 @@ module.exports = {
       }
     ],
     'no-useless-call': 'error',
+    'no-useless-catch': 'error',
     'no-useless-computed-key': 'error',
     'no-useless-constructor': 'error',
     'no-useless-escape': 'error',
@@ -351,7 +352,6 @@ module.exports = {
     'radix': ['error', 'as-needed'],
     'require-atomic-updates': 'error',
     'require-await': 'error',
-    'require-jsdoc': 'off',
     'require-unicode-regexp': 'error',
     'require-yield': 'error',
     'sort-imports': 'off',
@@ -394,7 +394,6 @@ module.exports = {
     'symbol-description': 'error',
     'semi-style': 'error',
     'switch-colon-spacing': 'error',
-    'valid-jsdoc': 'off',
     'template-curly-spacing': ['error', 'never'],
     'template-tag-spacing': ['error', 'never'],
     'unicode-bom': ['error', 'never'],

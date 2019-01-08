@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "patch": "yarn version --patch",
     "find-missing-rules": "eslint-find-rules -dunp",
-    "find-missing-rules:default": "eslint-find-rules -dunp ./configs/default.js",
-    "find-missing-rules:es5": "eslint-find-rules -dunp ./configs/jsx.js",
+    "find-missing-rules:defaults": "eslint-find-rules -dunp ./configs/defaults.js",
+    "find-missing-rules:es5": "eslint-find-rules -dunp ./configs/es5.js",
     "find-missing-rules:esnext": "eslint-find-rules -dunp ./configs/esnext.js",
     "find-missing-rules:a11y": "eslint-find-rules -dunp ./configs/jsx-a11y.js",
     "find-missing-rules:ng": "eslint-find-rules -dunp ./configs/ng.js",
@@ -31,11 +31,11 @@
   "homepage": "https://github.com/3fs/eslint-config#readme",
   "devDependencies": {
     "babel-eslint": "^10.0.1",
-    "eslint": "5.6.1",
+    "eslint": "5.12.0",
     "eslint-find-rules": "^3.2.3",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-react": "^7.11.1",
-    "eslint-plugin-react-native": "^3.3.0"
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.12.3",
+    "eslint-plugin-react-native": "^3.5.0"
   },
   "peerDependencies": {
     "eslint": "=5.6.1"
