@@ -14,11 +14,13 @@ module.exports = {
     },
     'react': {
       pragma: 'React',
-      version: '15.0'
+      version: 'detect'
     }
   },
-  // View link below for react rules documentation
-  // https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules
+  /*
+   * View link below for react rules documentation
+   * https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules
+   */
   rules: {
     'jsx-quotes': ['error', 'prefer-double'],
     'class-methods-use-this': [
