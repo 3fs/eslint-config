@@ -68,7 +68,7 @@ module.exports = {
     'jsx-a11y/accessible-emoji': 'error',
     'jsx-a11y/aria-activedescendant-has-tabindex': 'error',
     'jsx-a11y/iframe-has-title': 'error',
-    'jsx-a11y/no-autofocus': ['error', { ignoreNonDOM: true }],
+    'jsx-a11y/no-autofocus': 'off',
     'jsx-a11y/no-redundant-roles': 'error',
     'jsx-a11y/media-has-caption': [
       'error',

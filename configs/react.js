@@ -195,7 +195,7 @@ module.exports = {
     'react/jsx-child-element-spacing': 'error',
     'react/jsx-curly-brace-presence': ['error', { props: 'always', children: 'never' }],
     'react/jsx-max-depth': ['error', { 'max': 5 }],
-    'react/jsx-one-expression-per-line': ['error', { allow: 'none' }],
+    'react/jsx-one-expression-per-line': ['error', { allow: 'single-child' }],
     'react/jsx-props-no-multi-spaces': 'error',
     'react/jsx-sort-default-props': 'off',
     'react/no-access-state-in-setstate': 'error',
