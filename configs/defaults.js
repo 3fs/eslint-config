@@ -103,7 +103,7 @@ module.exports = {
     ],
     'max-nested-callbacks': ['error', 3],
     'max-params': ['error', 5],
-    'max-statements': 'off',
+    'max-statements': ['warn', 15, { ignoreTopLevelFunctions: true }],
     'max-statements-per-line': ['error', { 'max': 1 }],
     'multiline-comment-style': ['error', 'starred-block'],
     'multiline-ternary': 'off',
