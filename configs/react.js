@@ -128,6 +128,7 @@ module.exports = {
     'react/no-string-refs': 'error',
     'react/no-unknown-property': 'error',
     'react/prefer-es6-class': ['error', 'always'],
+    'react/prefer-read-only-props': 'off',
     'react/prefer-stateless-function': ['error', { ignorePureComponents: true }],
     'react/prop-types': [
       'error',
@@ -154,6 +155,8 @@ module.exports = {
         ]
       }
     ],
+    'react/state-in-constructor': 'off',
+    'react/static-property-placement': 'off',
     'react/jsx-wrap-multilines': [
       'error',
       {
@@ -186,6 +189,7 @@ module.exports = {
     'react/style-prop-object': 'error',
     'react/no-unescaped-entities': 'error',
     'react/no-children-prop': 'error',
+    'react/jsx-curly-newline': ['error', { multiline: 'consistent', singleline: 'consistent' }],
     'react/jsx-tag-spacing': [
       'error',
       {
@@ -199,6 +203,7 @@ module.exports = {
     'react/jsx-max-depth': ['error', { 'max': 5 }],
     'react/jsx-one-expression-per-line': ['error', { allow: 'single-child' }],
     'react/jsx-props-no-multi-spaces': 'error',
+    'react/jsx-props-no-spreading': 'off',
     'react/jsx-sort-default-props': 'off',
     'react/no-access-state-in-setstate': 'error',
     'react/no-this-in-sfc': 'error',

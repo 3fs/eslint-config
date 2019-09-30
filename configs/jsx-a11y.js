@@ -39,6 +39,7 @@ module.exports = {
     'jsx-a11y/no-distracting-elements': ['error', { elements: ['marquee', 'blink'] }],
     'jsx-a11y/scope': 'error',
     'jsx-a11y/click-events-have-key-events': 'off',
+    'jsx-a11y/control-has-associated-label': 'off',
     'jsx-a11y/no-static-element-interactions': [
       'error',
       {

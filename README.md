@@ -5,7 +5,7 @@
 ## Installation
 
 ```sh
-npm install @3fs/eslint-config [eslint@5.12.0]
+npm install @3fs/eslint-config [eslint@6.5.0]
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ official ESLint website.
 To use this shareable config, first run this:
 
 ```sh
-npm install --save-dev eslint@5.12.0 @3fs/eslint-config
+npm install --save-dev eslint@6.5.0 @3fs/eslint-config
 ```
 
 Then, add this to your .eslintrc(.js|.json|.yml) file:

@@ -443,6 +443,11 @@ eslint-find-rules@3.4.0:
     window-size "0.3.0"
     yargs "^8.0.1"
 
+eslint-plugin-angular@4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-angular/-/eslint-plugin-angular-4.0.1.tgz#f6c01d2a1e549d603e29eceb8615b5a989863a5e"
+  integrity sha512-OaW5G461C2lIkOG+/bhnBoXB9UQm/r0Dj2Qf9uiIN0/ncvf2Llp30L0q1tqWkN8/CxyBwQKh1v0hpCLLDjaIKQ==
+
 eslint-plugin-jsx-a11y@6.2.3:
   version "6.2.3"
   resolved "https://registry.yarnpkg.com/eslint-plugin-jsx-a11y/-/eslint-plugin-jsx-a11y-6.2.3.tgz#b872a09d5de51af70a97db1eea7dc933043708aa"
