@@ -23,24 +23,6 @@ module.exports = {
    */
   rules: {
     'jsx-quotes': ['error', 'prefer-double'],
-    'class-methods-use-this': [
-      'error',
-      {
-        exceptMethods: [
-          'render',
-          'getInitialState',
-          'getDefaultProps',
-          'getChildContext',
-          'componentWillMount',
-          'componentDidMount',
-          'componentWillReceiveProps',
-          'shouldComponentUpdate',
-          'componentWillUpdate',
-          'componentDidUpdate',
-          'componentWillUnmount'
-        ]
-      }
-    ],
 
     // REACT RULES
     'react/boolean-prop-naming': 'off',
@@ -208,7 +190,7 @@ module.exports = {
     'react/no-access-state-in-setstate': 'error',
     'react/no-this-in-sfc': 'error',
     'react/no-typos': 'error',
-    'react/no-unsafe': 'error',
+    'react/no-unsafe': ['error', { checkAliases: true }],
     'react/no-unused-state': 'error',
     'react/no-array-index-key': 'error',
     'react/require-default-props': 'error',

@@ -20,7 +20,7 @@ module.exports = {
     'class-methods-use-this': 'off',
     'complexity': 'off',
     'computed-property-spacing': ['error', 'never'],
-    'consistent-return': ['error', { 'treatUndefinedAsUnspecified': true }],
+    'consistent-return': 'off',
     'consistent-this': [
       'error',
       'that',
@@ -96,7 +96,7 @@ module.exports = {
     'max-lines-per-function': [
       'warn',
       {
-        'max': 40,
+        'max': 60,
         'skipComments': true,
         'skipBlankLines': true
       }
@@ -113,8 +113,8 @@ module.exports = {
     'no-await-in-loop': 'error',
     'no-bitwise': 'error',
     'no-buffer-constructor': 'off',
-    'no-case-declarations': 'error',
-    'no-confusing-arrow': 'error',
+    'no-case-declarations': 'off',
+    'no-confusing-arrow': 'off',
     'no-console': 'error',
     'no-continue': 'off',
     'no-div-regex': 'off',
