@@ -36,14 +36,14 @@ You can override settings from the shareable config by adding them directly into
 
 ### All available configs
 
-* `@3fs` or `@3fs/eslint-config/configs/esnext` - ES6+ config; Requires [babel-eslint][babel-eslint]
+* `@3fs` or `@3fs/eslint-config/configs/esnext` - ES6+ config; Requires [babel-eslint@10.0.3][babel-eslint]
 * `@3fs/eslint-config/configs/es5` - ES5 config
-* `@3fs/eslint-config/configs/node` - ES6+ NodeJS config; Requires [babel-eslint][babel-eslint]
+* `@3fs/eslint-config/configs/node` - ES6+ NodeJS config; Requires [babel-eslint@10.0.3][babel-eslint]
 * `@3fs/eslint-config/configs/node-es5` - ES5 NodeJS config
-* `@3fs/eslint-config/configs/ng` - AngularJS config; Requires [eslint-plugin-angular][eslint-plugin-angular]
-* `@3fs/eslint-config/configs/react` - React config; Requires [babel-eslint][babel-eslint],[eslint-plugin-react][eslint-plugin-react], [eslint-plugin-jsx-a11y][eslint-plugin-jsx-a11y]
-* `@3fs/eslint-config/configs/react-native` - React Native config; Requires [babel-eslint][babel-eslint],[eslint-plugin-react][eslint-plugin-react], [eslint-plugin-jsx-a11y][eslint-plugin-jsx-a11y] and [eslint-plugin-react-native][eslint-plugin-react-native]
-* `@3fs/eslint-config/configs/ts` - TypeScript config; Requires [typescript-eslint-parser][typescript-eslint-parser] (has `no-undef` bug: [#416][typescript-parser-bug-1]) and [eslint-plugin-typescript][eslint-plugin-typescript]
+* `@3fs/eslint-config/configs/ng` - AngularJS config; Requires [eslint-plugin-angular@4.0.1][eslint-plugin-angular]
+* `@3fs/eslint-config/configs/react` - React config; Requires [babel-eslint@10.0.3][babel-eslint], [eslint-plugin-react@7.14.3][eslint-plugin-react], [eslint-plugin-jsx-a11y@6.2.3][eslint-plugin-jsx-a11y]
+* `@3fs/eslint-config/configs/react-native` - React Native config; Requires [babel-eslint@10.0.3][babel-eslint], [eslint-plugin-react@7.14.3][eslint-plugin-react], [eslint-plugin-jsx-a11y@6.2.3][eslint-plugin-jsx-a11y] and [eslint-plugin-react-native@3.7.0][eslint-plugin-react-native]
+* `@3fs/eslint-config/configs/ts` - TypeScript config; Requires [@typescript-eslint/eslint-plugin@2.3.1][@typescript-eslint/eslint-plugin] and [@typescript-eslint/parser@2.3.1][@typescript-eslint/parser]
 
 
 
@@ -63,10 +63,7 @@ You can override settings from the shareable config by adding them directly into
 [eslint-plugin-angular]: https://www.npmjs.com/package/eslint-plugin-angular
 [eslint-plugin-react]: https://www.npmjs.com/package/eslint-plugin-react
 [eslint-plugin-jsx-a11y]: https://www.npmjs.com/package/eslint-plugin-jsx-a11y
-[typescript-eslint-parser]: https://www.npmjs.com/package/typescript-eslint-parser
-[eslint-plugin-typescript]: https://www.npmjs.com/package/eslint-plugin-typescript
+[@typescript-eslint/parser]: https://www.npmjs.com/package/@typescript-eslint/parser
+[@typescript-eslint/eslint-plugin]: https://www.npmjs.com/package/@typescript-eslint/eslint-plugin
 [eslint-plugin-react-native]: https://www.npmjs.com/package/eslint-plugin-react-native
 
-[//]: # (TS bugs)
-
-[typescript-parser-bug-1]: https://github.com/eslint/typescript-eslint-parser/issues/416
