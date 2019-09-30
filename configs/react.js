@@ -1,6 +1,6 @@
 module.exports = {
   extends: ['@3fs', '@3fs/eslint-config/configs/jsx-a11y'],
-  plugins: ['react'],
+  plugins: ['react', 'react-hooks'],
   parserOptions: { ecmaFeatures: { jsx: true } },
   settings: {
     'import/resolver': {
@@ -22,7 +22,12 @@ module.exports = {
    * https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules
    */
   rules: {
+    // REACT JSX A11Y RULES
     'jsx-quotes': ['error', 'prefer-double'],
+
+    // REACT HOOKS RULES
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
 
     // REACT RULES
     'react/boolean-prop-naming': 'off',
