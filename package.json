@@ -1,6 +1,6 @@
 {
   "name": "@3fs/eslint-config",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "3fs ESLint Config",
   "main": "index.js",
   "scripts": {
