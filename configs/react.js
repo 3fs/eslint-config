@@ -45,6 +45,7 @@ module.exports = {
         ]
       }
     ],
+    'react/function-component-definition': 'error',
     'react/jsx-boolean-value': ['error', 'never'],
     'react/jsx-closing-bracket-location': ['error', 'line-aligned'],
     'react/jsx-closing-tag-location': 'off',
@@ -73,6 +74,7 @@ module.exports = {
     ],
     'react/jsx-no-duplicate-props': ['error', { ignoreCase: true }],
     'react/jsx-no-literals': 'off',
+    'react/jsx-no-script-url': 'error',
     'react/jsx-no-undef': 'error',
     'react/jsx-pascal-case': [
       'error',
@@ -103,6 +105,7 @@ module.exports = {
     ],
     'react/jsx-uses-react': ['error'],
     'react/jsx-uses-vars': 'error',
+    'react/no-adjacent-inline-elements': 'false',
     'react/no-danger': 'warn',
     'react/no-deprecated': ['error'],
     'react/no-did-mount-set-state': 'error',
@@ -114,6 +117,7 @@ module.exports = {
     'react/no-set-state': 'off',
     'react/no-string-refs': 'error',
     'react/no-unknown-property': 'error',
+    'react/jsx-no-useless-fragment': 'error',
     'react/prefer-es6-class': ['error', 'always'],
     'react/prefer-read-only-props': 'off',
     'react/prefer-stateless-function': ['error', { ignorePureComponents: true }],

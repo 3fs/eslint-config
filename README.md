@@ -5,7 +5,9 @@
 ## Installation
 
 ```sh
-npm install @3fs/eslint-config [eslint@6.5.0]
+npm install @3fs/eslint-config [eslint@6.8.0]
+# OR
+yarn add  @3fs/eslint-config [eslint@6.8.0]
 ```
 
 ## Usage
@@ -19,6 +21,8 @@ To use this shareable config, first run this:
 
 ```sh
 npm install --save-dev eslint@6.5.0 @3fs/eslint-config
+# OR
+yarn add --dev eslint@6.5.0 @3fs/eslint-config
 ```
 
 Then, add this to your .eslintrc(.js|.json|.yml) file:
@@ -41,9 +45,9 @@ You can override settings from the shareable config by adding them directly into
 * `@3fs/eslint-config/configs/node` - ES6+ NodeJS config; Requires [babel-eslint@10.0.3][babel-eslint]
 * `@3fs/eslint-config/configs/node-es5` - ES5 NodeJS config
 * `@3fs/eslint-config/configs/ng` - AngularJS config; Requires [eslint-plugin-angular@4.0.1][eslint-plugin-angular]
-* `@3fs/eslint-config/configs/react` - React config; Requires [babel-eslint@10.0.3][babel-eslint], [eslint-plugin-react@7.14.3][eslint-plugin-react], [eslint-plugin-jsx-a11y@6.2.3][eslint-plugin-jsx-a11y]
-* `@3fs/eslint-config/configs/react-native` - React Native config; Requires [babel-eslint@10.0.3][babel-eslint], [eslint-plugin-react@7.14.3][eslint-plugin-react], [eslint-plugin-jsx-a11y@6.2.3][eslint-plugin-jsx-a11y] and [eslint-plugin-react-native@3.7.0][eslint-plugin-react-native]
-* `@3fs/eslint-config/configs/ts` - TypeScript config; Requires [@typescript-eslint/eslint-plugin@2.3.1][@typescript-eslint/eslint-plugin] and [@typescript-eslint/parser@2.3.1][@typescript-eslint/parser]
+* `@3fs/eslint-config/configs/react` - React config; Requires [babel-eslint@10.0.3][babel-eslint], [eslint-plugin-react@7.18.0][eslint-plugin-react], [eslint-plugin-jsx-a11y@6.2.3][eslint-plugin-jsx-a11y]
+* `@3fs/eslint-config/configs/react-native` - React Native config; Requires [babel-eslint@10.0.3][babel-eslint], [eslint-plugin-react@7.18.0][eslint-plugin-react], [eslint-plugin-jsx-a11y@6.2.3][eslint-plugin-jsx-a11y] and [eslint-plugin-react-native@3.7.0][eslint-plugin-react-native]
+* `@3fs/eslint-config/configs/ts` - TypeScript config; Requires [@typescript-eslint/eslint-plugin@2.17.0][@typescript-eslint/eslint-plugin] and [@typescript-eslint/parser@2.17.0][@typescript-eslint/parser]
 
 
 
