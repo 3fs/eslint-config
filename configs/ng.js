@@ -1,6 +1,6 @@
 module.exports = {
   extends: '@3fs/eslint-config/configs/es5',
-  globals: { 'angular': true },
+  globals: { angular: true },
   plugins: ['angular'],
   rules: {
     'consistent-this': [
@@ -15,7 +15,7 @@ module.exports = {
     'angular/module-setter': 'error',
     'angular/module-name': 'off',
     'angular/module-dependency-order': 'error',
-    'angular/no-private-call': ['error', { 'allow': ['$$phase'] }],
+    'angular/no-private-call': ['error', { allow: ['$$phase'] }],
     'angular/angularelement': 'error',
     'angular/avoid-scope-typos': 'error',
     'angular/no-inline-template': 'error',
@@ -67,7 +67,7 @@ module.exports = {
     'angular/service-name': [
       2,
       '/[A-Z].*Svc/',
-      { 'oldBehavior': false }
+      { oldBehavior: false }
     ],
     'angular/factory-name': 'error',
     'angular/provider-name': 'error',

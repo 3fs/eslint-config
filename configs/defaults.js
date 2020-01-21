@@ -7,12 +7,12 @@ module.exports = {
     'array-callback-return': 'error',
     'arrow-body-style': ['error', 'as-needed'],
     'arrow-parens': ['error', 'always'],
-    'arrow-spacing': ['error', { 'before': true, 'after': true }],
+    'arrow-spacing': ['error', { before: true, after: true }],
     'block-spacing': ['error', 'always'],
     'brace-style': [
       'error',
       '1tbs',
-      { 'allowSingleLine': true }
+      { allowSingleLine: true }
     ],
     'block-scoped-var': 'error',
     'callback-return': 'off',
@@ -61,6 +61,7 @@ module.exports = {
     'generator-star-spacing': ['error', { 'before': true, 'after': true }],
     'guard-for-in': 'off',
     'getter-return': 'error',
+    'global-require': 'off',
     'handle-callback-err': ['error', '^(err|error)$'],
     'indent': [
       'error',
@@ -75,7 +76,6 @@ module.exports = {
     'jsx-quotes': 'off',
     'key-spacing': ['error', { 'beforeColon': false, 'afterColon': true }],
     'keyword-spacing': ['error', { 'before': true, 'after': true }],
-    'global-require': 'off',
     'line-comment-position': ['off', { 'position': 'above' }],
     'linebreak-style': 'off',
     'lines-around-comment': 'off',
