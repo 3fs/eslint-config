@@ -97,14 +97,14 @@ module.exports = {
     'max-lines-per-function': [
       'warn',
       {
-        'max': 60,
+        'max': 100,
         'skipComments': true,
         'skipBlankLines': true
       }
     ],
     'max-nested-callbacks': ['error', 3],
     'max-params': ['error', 5],
-    'max-statements': ['warn', 15, { ignoreTopLevelFunctions: true }],
+    'max-statements': ['warn', 20, { ignoreTopLevelFunctions: true }],
     'max-statements-per-line': ['error', { 'max': 1 }],
     'multiline-comment-style': ['error', 'starred-block'],
     'multiline-ternary': 'off',
@@ -131,7 +131,7 @@ module.exports = {
     'no-implicit-coercion': 'error',
     'no-implicit-globals': 'error',
     'no-import-assign': 'error',
-    'no-inline-comments': 'error',
+    'no-inline-comments': 'off',
     'no-invalid-this': 'off',
     'no-lonely-if': 'error',
     'no-loop-func': 'error',

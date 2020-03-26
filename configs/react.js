@@ -105,7 +105,7 @@ module.exports = {
     ],
     'react/jsx-uses-react': ['error'],
     'react/jsx-uses-vars': 'error',
-    'react/no-adjacent-inline-elements': 'false',
+    'react/no-adjacent-inline-elements': 'off',
     'react/no-danger': 'warn',
     'react/no-deprecated': ['error'],
     'react/no-did-mount-set-state': 'error',
