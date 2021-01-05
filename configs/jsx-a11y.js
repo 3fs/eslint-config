@@ -9,6 +9,9 @@ module.exports = {
     'jsx-a11y/anchor-has-content': ['error', { components: [''] }],
     'jsx-a11y/aria-role': ['error', { ignoreNonDom: false }],
     'jsx-a11y/aria-props': 'error',
+    'jsx-a11y/autocomplete-valid': ['off', {
+      inputComponents: []
+    }],
     'jsx-a11y/aria-proptypes': 'error',
     'jsx-a11y/aria-unsupported-elements': 'error',
     'jsx-a11y/alt-text': [
@@ -68,7 +71,6 @@ module.exports = {
         ]
       }
     ],
-    'jsx-a11y/accessible-emoji': 'error',
     'jsx-a11y/aria-activedescendant-has-tabindex': 'error',
     'jsx-a11y/iframe-has-title': 'error',
     'jsx-a11y/no-autofocus': 'off',

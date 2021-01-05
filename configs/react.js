@@ -76,6 +76,7 @@ module.exports = {
     'react/jsx-no-literals': 'off',
     'react/jsx-no-script-url': 'error',
     'react/jsx-no-undef': 'error',
+    'react/jsx-newline': 'off',
     'react/jsx-pascal-case': [
       'error',
       {
@@ -164,6 +165,7 @@ module.exports = {
     'react/jsx-no-target-blank': 'error',
     'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx'] }],
     'react/jsx-no-comment-textnodes': 'error',
+    'react/jsx-no-constructed-context-values': 'error',
     'react/no-render-return-value': 'error',
     'react/require-optimization': ['off', { allowDecorators: [] }],
     'react/no-find-dom-node': 'error',
