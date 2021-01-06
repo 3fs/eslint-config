@@ -136,7 +136,35 @@ module.exports = {
     '@typescript-eslint/sort-type-union-intersection-members': 'off',
     '@typescript-eslint/default-param-last': 'error',
     '@typescript-eslint/explicit-module-boundary-types': 'error',
-    '@typescript-eslint/naming-convention': 'error',
+    '@typescript-eslint/naming-convention': [
+      "error",
+      {
+        "selector": "default",
+        "format": ["camelCase"],
+        "leadingUnderscore": "allow",
+        "trailingUnderscore": "allow"
+      },
+      {
+        "selector": "variableLike",
+        "format": ["camelCase", "UPPER_CASE", "PascalCase"],
+        "leadingUnderscore": "allow",
+        "trailingUnderscore": "allow"
+      },
+      {
+        "selector": "objectLiteralProperty",
+        "format": ["camelCase", "UPPER_CASE"],
+        "leadingUnderscore": "allow",
+        "trailingUnderscore": "allow"
+      },
+      {
+        "selector": "typeLike",
+        "format": ["PascalCase"]
+      },
+      {
+        "selector": "enumMember",
+        "format": ["PascalCase"]
+      }
+    ],
     '@typescript-eslint/no-dynamic-delete': 'error',
     '@typescript-eslint/no-extra-non-null-assertion': 'error',
     '@typescript-eslint/no-extra-semi': 'error',
@@ -155,7 +183,7 @@ module.exports = {
     '@typescript-eslint/no-unsafe-member-access': 'off',
     '@typescript-eslint/no-unsafe-return': 'error',
     '@typescript-eslint/prefer-as-const': 'error',
-    '@typescript-eslint/prefer-readonly-parameter-types': 'error',
+    '@typescript-eslint/prefer-readonly-parameter-types': 'off',
     '@typescript-eslint/switch-exhaustiveness-check': 'error'
   }
 };
