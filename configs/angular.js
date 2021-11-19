@@ -313,6 +313,7 @@ module.exports = {
         "@typescript-eslint/no-floating-promises": "off",
         "jest/no-done-callback": "off",
         "jest/expect-expect": "off",
+        "jest/no-focused-tests": "error",
         "jest/no-standalone-expect": [
           "error",
           { "additionalTestBlockFunctions": ["beforeEach", "afterEach", "beforeAll", "afterAll"] }
