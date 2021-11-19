@@ -187,7 +187,8 @@ module.exports = {
             "imports": "always-multiline",
             "exports": "always-multiline",
             "enums": "always-multiline",
-            "functions": "ignore"
+            "functions": "ignore",
+            "generics": "always-multiline"
           }
         ],
         "@typescript-eslint/no-extraneous-class": "off",
