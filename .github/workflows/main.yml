@@ -1,0 +1,27 @@
+name: Release
+
+on:
+  push:
+    # Limit this action to tags only
+    tags:
+      - 'v[0-9]+\.[0-9]+\.[0-9]+'
+
+jobs:
+  publish:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Yarn setup
+        uses: DerYeger/yarn-setup-action@master
+        with:
+          node-version: 16
+      - name: Release
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          touch .npmrc
+          echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" >> .npmrc
+          RELEASE_VERSION=${GITHUB_REF#refs/*/v}
+          npm --no-git-tag-version version $RELEASE_VERSION
+          npm publish

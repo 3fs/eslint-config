@@ -2,6 +2,15 @@
 
 #### An ESLint [Shareable Config][shareable-configs-url]
 
+## Deployment
+
+Create a new annotated tag and push it to github.
+
+```sh
+git tag -a v1.0.0 -m "Tag comment"
+git push origin v1.0.0
+```
+
 ## Installation
 
 ```sh
