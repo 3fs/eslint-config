@@ -4,19 +4,11 @@
   "description": "3fs ESLint Config",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "patch": "yarn version --patch",
-    "find-missing-rules": "eslint-find-rules -dunp",
-    "find-missing-rules:defaults": "eslint-find-rules -dunp ./configs/defaults.js",
-    "find-missing-rules:es5": "eslint-find-rules -dunp ./configs/es5.js",
-    "find-missing-rules:esnext": "eslint-find-rules -dunp ./configs/esnext.js",
-    "find-missing-rules:a11y": "eslint-find-rules -dunp ./configs/jsx-a11y.js",
-    "find-missing-rules:ng": "eslint-find-rules -dunp ./configs/ng.js",
-    "find-missing-rules:node": "eslint-find-rules -dunp ./configs/node.js",
-    "find-missing-rules:node-es5": "eslint-find-rules -dunp ./configs/node-es5.js",
-    "find-missing-rules:react": "eslint-find-rules -dunp ./configs/react.js",
-    "find-missing-rules:react-native": "eslint-find-rules -dunp ./configs/react-native.js",
-    "find-missing-rules:ts": "eslint-find-rules -dunp ./configs/ts.js"
+    "prettier:lint": "yarn prettier --check '**/*.{js,ts,html}'",
+    "prettier:fix": "yarn prettier:lint --write",
+    "eslint:lint": "yarn eslint configs/",
+    "eslint:fix": "yarn eslint:lint --fix",
+    "eslint:printRules": "TEST_FILE_NAME=$(echo $TEST_FILE | sed 's#/#-#g') && yarn eslint --config ./configs/$TEST_CONFIG.js --print-config $TEST_FILE | sed 's#/.*eslint-config/node_modules#{ABS_PATH}/eslint-config/node_modules#g' > ./snapshots/$TEST_CONFIG-$TEST_FILE_NAME.json"
   },
   "repository": {
     "type": "git",
@@ -29,20 +21,20 @@
     "url": "https://github.com/3fs/eslint-config/issues"
   },
   "homepage": "https://github.com/3fs/eslint-config#readme",
-  "scripts": {
-    "prettier:lint": "yarn prettier --check '**/*.{js,ts,html}'",
-    "prettier:fix": "yarn prettier:lint --write",
-    "eslint:lint": "yarn eslint configs/",
-    "eslint:fix": "yarn eslint:lint --fix"
-  },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "5.13.0",
-    "@typescript-eslint/parser": "5.13.0",
+    "@angular-eslint/eslint-plugin": "^16.2.0",
+    "@angular-eslint/eslint-plugin-template": "^16.2.0",
+    "@angular-eslint/template-parser": "^16.2.0",
+    "@typescript-eslint/eslint-plugin": "6.7.0",
+    "@typescript-eslint/parser": "6.7.0",
     "babel-eslint": "10.1.0",
     "eslint": "8.44.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-find-rules": "4.1.0",
     "eslint-plugin-angular": "4.1.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-jest": "^27.4.0",
+    "eslint-plugin-jsdoc": "^46.8.2",
     "eslint-plugin-jsx-a11y": "6.7.1",
     "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-react": "7.32.2",
