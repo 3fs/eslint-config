@@ -29,6 +29,12 @@
     "url": "https://github.com/3fs/eslint-config/issues"
   },
   "homepage": "https://github.com/3fs/eslint-config#readme",
+  "scripts": {
+    "prettier:lint": "yarn prettier --check '**/*.{js,ts,html}'",
+    "prettier:fix": "yarn prettier:lint --write",
+    "eslint:lint": "yarn eslint configs/",
+    "eslint:fix": "yarn eslint:lint --fix"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "5.13.0",
     "@typescript-eslint/parser": "5.13.0",
