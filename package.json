@@ -8,7 +8,8 @@
     "prettier:fix": "yarn prettier:lint --write",
     "eslint:lint": "yarn eslint configs/",
     "eslint:fix": "yarn eslint:lint --fix",
-    "eslint:printRules": "TEST_FILE_NAME=$(echo $TEST_FILE | sed 's#/#-#g') && yarn eslint --config ./configs/$TEST_CONFIG.js --print-config $TEST_FILE | sed 's#/.*eslint-config/node_modules#{ABS_PATH}/eslint-config/node_modules#g' > ./snapshots/$TEST_CONFIG-$TEST_FILE_NAME.json"
+    "eslint:printRules": "TEST_FILE_NAME=$(echo $TEST_FILE | sed 's#/#-#g') && yarn eslint --config ./configs/$TEST_CONFIG.js --print-config $TEST_FILE | sed 's#/.*eslint-config/node_modules#{ABS_PATH}/eslint-config/node_modules#g' > ./snapshots/$TEST_CONFIG-$TEST_FILE_NAME.json",
+    "eslint:generateSnapshots": "TEST_CONFIG=angular TEST_FILE=index.ts yarn eslint:printRules && TEST_CONFIG=angular TEST_FILE=index.spec.ts yarn eslint:printRules && TEST_CONFIG=angular TEST_FILE=index.model.spec.ts yarn eslint:printRules && TEST_CONFIG=angular TEST_FILE=index.model.ts yarn eslint:printRules && TEST_CONFIG=angular TEST_FILE=index.abstract.ts yarn eslint:printRules && TEST_CONFIG=angular TEST_FILE=index.html yarn eslint:printRules && TEST_CONFIG=react-ts TEST_FILE=index.ts yarn eslint:printRules && TEST_CONFIG=react-ts TEST_FILE=src/Mocks/Data/index.ts yarn eslint:printRules && TEST_CONFIG=react-ts TEST_FILE=index.spec.ts yarn eslint:printRules && TEST_CONFIG=react-ts TEST_FILE=src/Generated/index.ts yarn eslint:printRules"
   },
   "repository": {
     "type": "git",
@@ -45,8 +46,8 @@
   },
   "peerDependencies": {
     "@angular-eslint/template-parser": ">=2.0.2",
-    "@typescript-eslint/eslint-plugin": ">=4.21.0",
-    "@typescript-eslint/parser": ">=4.21.0",
+    "@typescript-eslint/eslint-plugin": ">=6.0.0",
+    "@typescript-eslint/parser": ">=6.0.0",
     "eslint": ">=7.5.0",
     "eslint-config-prettier": ">=8.1.0",
     "eslint-plugin-import": ">=2.22.1",

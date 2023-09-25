@@ -681,8 +681,10 @@ $ {ABS_PATH}/eslint-config/node_modules/.bin/eslint --config ./configs/angular.j
     ],
     "@typescript-eslint/lines-between-class-members": [
       "error",
+      "always",
       {
-        "exceptAfterSingleLine": true
+        "exceptAfterSingleLine": true,
+        "exceptAfterOverload": true
       }
     ],
     "@typescript-eslint/no-unnecessary-condition": [

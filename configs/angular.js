@@ -260,6 +260,7 @@ module.exports = {
         '@typescript-eslint/strict-boolean-expressions': 'off',
         '@typescript-eslint/lines-between-class-members': [
           'error',
+          'always',
           { exceptAfterSingleLine: true },
         ],
         '@typescript-eslint/no-unnecessary-condition': 'off',

@@ -1,4 +1,4 @@
-$ {ABS_PATH}/eslint-config/node_modules/.bin/eslint --config ./configs/angular.js --print-config index.model.ts
+$ {ABS_PATH}/eslint-config/node_modules/.bin/eslint --config ./configs/angular.js --print-config index.ts
 {
   "env": {
     "jest/globals": true,
@@ -19,10 +19,6 @@ $ {ABS_PATH}/eslint-config/node_modules/.bin/eslint --config ./configs/angular.j
     "@angular-eslint"
   ],
   "rules": {
-    "max-classes-per-file": [
-      "off",
-      1
-    ],
     "brace-style": [
       "off"
     ],
@@ -1364,6 +1360,10 @@ $ {ABS_PATH}/eslint-config/node_modules/.bin/eslint --config ./configs/angular.j
       {
         "position": "above"
       }
+    ],
+    "max-classes-per-file": [
+      "error",
+      1
     ],
     "max-depth": [
       "error",
