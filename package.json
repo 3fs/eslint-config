@@ -48,7 +48,7 @@
     "@angular-eslint/template-parser": ">=2.0.2",
     "@typescript-eslint/eslint-plugin": ">=6.0.0",
     "@typescript-eslint/parser": ">=6.0.0",
-    "eslint": ">=7.5.0",
+    "eslint": ">=8.44.0",
     "eslint-config-prettier": ">=8.1.0",
     "eslint-plugin-import": ">=2.22.1",
     "eslint-plugin-jest": ">=24.3.4",
