@@ -1,1 +1,1 @@
-module.exports = require('./configs/esnext');
+module.exports = require('./configs/angular');
