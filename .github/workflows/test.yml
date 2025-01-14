@@ -6,68 +6,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 18.x
+          node-version: 22
           cache: 'npm'
       - run: yarn install
       - run: yarn prettier:lint
-
-  eslint:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Setup node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18.x
-          cache: 'npm'
-      - run: yarn install
-      - run: yarn eslint:lint
-
-  angular:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Setup node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18.x
-          cache: 'npm'
-      - run: yarn install
-      - run: TEST_CONFIG=angular TEST_FILE=index.ts yarn eslint:printRules
-      - run: TEST_CONFIG=angular TEST_FILE=index.spec.ts yarn eslint:printRules
-      - run: TEST_CONFIG=angular TEST_FILE=index.model.spec.ts yarn eslint:printRules
-      - run: TEST_CONFIG=angular TEST_FILE=index.model.ts yarn eslint:printRules
-      - run: TEST_CONFIG=angular TEST_FILE=index.abstract.ts yarn eslint:printRules
-      - run: TEST_CONFIG=angular TEST_FILE=index.html yarn eslint:printRules
-      - run: |
-          if [ "$(git status --porcelain)" != "" ]; then
-            echo "Some rules have changed"
-            exit 1
-          else
-            echo "No changes detected in snapshots"
-          fi
 
   react:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: 18.x
+          node-version: 22
           cache: 'npm'
       - run: yarn install
-      - run: TEST_CONFIG=react-ts TEST_FILE=index.ts yarn eslint:printRules
-      - run: TEST_CONFIG=react-ts TEST_FILE=src/Mocks/Data/index.ts yarn eslint:printRules
-      - run: TEST_CONFIG=react-ts TEST_FILE=index.spec.ts yarn eslint:printRules
-      - run: TEST_CONFIG=react-ts TEST_FILE=src/Generated/index.ts yarn eslint:printRules
+      - run: yarn eslint:printRules
       - run: |
           if [ "$(git status --porcelain)" != "" ]; then
             echo "Some rules have changed"

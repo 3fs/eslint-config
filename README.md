@@ -1,6 +1,8 @@
-# eslint-config [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url]
+# 3fs eslint-config
 
-#### An ESLint [Shareable Config][shareable-configs-url]
+[![npm version](https://badge.fury.io/js/@3fs%2Feslint-config.svg)](https://badge.fury.io/js/@3fs%2Feslint-config)
+
+#### An ESLint [Shareable Config](https://eslint.org/docs/latest/extend/shareable-configs)
 
 ## Deployment
 
@@ -21,10 +23,9 @@ yarn add  @3fs/eslint-config eslint
 
 ## Usage
 
-Shareable configs are designed to work with the `extends` feature of `.eslintrc` files.
+Shareable configs are designed to simplify configuration in eslint config files.
 You can learn more about
-[Shareable Configs][shareable-configs-url] on the
-official ESLint website.
+[Shareable Configs](https://eslint.org/docs/latest/extend/shareable-configs) on the official ESLint website.
 
 To use this shareable config, first run this:
 
@@ -34,20 +35,16 @@ npm install --save-dev eslint @3fs/eslint-config
 yarn add --dev eslint @3fs/eslint-config
 ```
 
-Then, add this to your .eslintrc(.js|.json|.yml) file:
+Then, add this to your `eslint.config.mjs` file:
 
-```json
-{
-  "extends": "@3fs"
-}
+```js
+import trifsPreset from '@3fs/eslint-config';
+
+export default [...trifsPreset];
 ```
 
-_Note: We omitted the `/eslint-config` sufix since it is automatically assumed by ESLint. Only works for esnext since its specified as default_
-
-You can override settings from the shareable config by adding them directly into your
-`.eslintrc` file.
+You can override settings from the shareable config by adding them as a next element in the array.
 
 ### All available configs
 
-- `@3fs` or `@3fs/eslint-config/configs/angular` - Angular config
-- `@3fs/eslint-config/configs/react` - React config
+- `@3fs` or `@3fs/eslint-config/configs/react-ts` - React config
