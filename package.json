@@ -1,15 +1,14 @@
 {
   "name": "@3fs/eslint-config",
-  "version": "2.0.2",
+  "version": "3.0.0",
   "description": "3fs ESLint Config",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
     "prettier:lint": "yarn prettier --check '**/*.{js,ts,html}'",
     "prettier:fix": "yarn prettier:lint --write",
-    "eslint:lint": "yarn eslint configs/",
-    "eslint:fix": "yarn eslint:lint --fix",
-    "eslint:printRules": "TEST_FILE_NAME=$(echo $TEST_FILE | sed 's#/#-#g') && yarn eslint --config ./configs/$TEST_CONFIG.js --print-config $TEST_FILE | sed 's#/.*eslint-config/node_modules#{ABS_PATH}/eslint-config/node_modules#g' > ./snapshots/$TEST_CONFIG-$TEST_FILE_NAME.json",
-    "eslint:generateSnapshots": "TEST_CONFIG=angular TEST_FILE=index.ts yarn eslint:printRules && TEST_CONFIG=angular TEST_FILE=index.spec.ts yarn eslint:printRules && TEST_CONFIG=angular TEST_FILE=index.model.spec.ts yarn eslint:printRules && TEST_CONFIG=angular TEST_FILE=index.model.ts yarn eslint:printRules && TEST_CONFIG=angular TEST_FILE=index.abstract.ts yarn eslint:printRules && TEST_CONFIG=angular TEST_FILE=index.html yarn eslint:printRules && TEST_CONFIG=react-ts TEST_FILE=index.ts yarn eslint:printRules && TEST_CONFIG=react-ts TEST_FILE=src/Mocks/Data/index.ts yarn eslint:printRules && TEST_CONFIG=react-ts TEST_FILE=index.spec.ts yarn eslint:printRules && TEST_CONFIG=react-ts TEST_FILE=src/Generated/index.ts yarn eslint:printRules"
+    "eslint": "eslint --config ./configs/react-ts.mjs ./test.mjs",
+    "eslint:printRules": "eslint --config ./configs/react-ts.mjs --print-config ./test.mjs",
+    "eslint:generateSnapshots": "yarn eslint:printRules > ./snapshots/react-ts.json"
   },
   "repository": {
     "type": "git",
@@ -23,35 +22,29 @@
   },
   "homepage": "https://github.com/3fs/eslint-config#readme",
   "devDependencies": {
-    "@angular-eslint/eslint-plugin": "^16.2.0",
-    "@angular-eslint/eslint-plugin-template": "^16.2.0",
-    "@angular-eslint/template-parser": "^16.2.0",
-    "@typescript-eslint/eslint-plugin": "6.7.0",
-    "@typescript-eslint/parser": "6.7.0",
-    "babel-eslint": "10.1.0",
-    "eslint": "8.44.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-find-rules": "4.1.0",
-    "eslint-plugin-angular": "4.1.0",
-    "eslint-plugin-import": "^2.28.1",
-    "eslint-plugin-jest": "^27.4.0",
-    "eslint-plugin-jsdoc": "^46.8.2",
-    "eslint-plugin-jsx-a11y": "6.7.1",
-    "eslint-plugin-prettier": "^5.0.0",
-    "eslint-plugin-react": "7.32.2",
-    "eslint-plugin-react-hooks": "4.6.0",
-    "eslint-plugin-react-native": "4.0.0",
-    "prettier": "^3.0.3",
-    "typescript": "4.6.2"
+    "@stylistic/eslint-plugin-js": "^2.13.0",
+    "@stylistic/eslint-plugin-jsx": "^2.13.0",
+    "@stylistic/eslint-plugin-ts": "^2.13.0",
+    "eslint": "9.18.0",
+    "eslint-config-prettier": "^10.0.1",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.20.0"
   },
   "peerDependencies": {
-    "@angular-eslint/template-parser": ">=2.0.2",
-    "@typescript-eslint/eslint-plugin": ">=6.0.0",
-    "@typescript-eslint/parser": ">=6.0.0",
-    "eslint": ">=8.44.0",
-    "eslint-config-prettier": ">=8.1.0",
-    "eslint-plugin-import": ">=2.22.1",
-    "eslint-plugin-jest": ">=24.3.4",
-    "eslint-plugin-jsdoc": ">=32.3.0"
+    "@stylistic/eslint-plugin-js": ">=2.11.0",
+    "@stylistic/eslint-plugin-jsx": ">=2.11.0",
+    "@stylistic/eslint-plugin-ts": ">=2.11.0",
+    "eslint": ">=9.16.0",
+    "eslint-config-prettier": ">=9.1.0",
+    "eslint-plugin-import": ">=2.31.0",
+    "eslint-plugin-prettier": ">=5.2.1",
+    "eslint-plugin-react": ">=7.37.2",
+    "eslint-plugin-react-hooks": ">=5.1.0",
+    "typescript-eslint": ">=8.17.0"
   }
 }
