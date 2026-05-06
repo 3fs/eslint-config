@@ -1,3 +1,4 @@
+yarn run v1.22.22
 $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
 {
   "settings": {
@@ -31,6 +32,48 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
     "no-unexpected-multiline": [
       2
     ],
+    "@stylistic/lines-around-comment": [
+      0
+    ],
+    "@stylistic/max-len": [
+      0
+    ],
+    "@stylistic/no-confusing-arrow": [
+      0
+    ],
+    "@stylistic/no-mixed-operators": [
+      0
+    ],
+    "@stylistic/no-tabs": [
+      0
+    ],
+    "@stylistic/quotes": [
+      0
+    ],
+    "@stylistic/js/lines-around-comment": [
+      0
+    ],
+    "@stylistic/js/max-len": [
+      0
+    ],
+    "@stylistic/js/no-confusing-arrow": [
+      0
+    ],
+    "@stylistic/js/no-mixed-operators": [
+      0
+    ],
+    "@stylistic/js/no-tabs": [
+      0
+    ],
+    "@stylistic/js/quotes": [
+      0
+    ],
+    "@stylistic/ts/lines-around-comment": [
+      0
+    ],
+    "@stylistic/ts/quotes": [
+      0
+    ],
     "@typescript-eslint/lines-around-comment": [
       0
     ],
@@ -53,6 +96,526 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
       0
     ],
     "@babel/semi": [
+      0
+    ],
+    "@stylistic/array-bracket-newline": [
+      0
+    ],
+    "@stylistic/array-bracket-spacing": [
+      0
+    ],
+    "@stylistic/array-element-newline": [
+      0
+    ],
+    "@stylistic/arrow-parens": [
+      0
+    ],
+    "@stylistic/arrow-spacing": [
+      0
+    ],
+    "@stylistic/block-spacing": [
+      0
+    ],
+    "@stylistic/brace-style": [
+      0
+    ],
+    "@stylistic/comma-dangle": [
+      0
+    ],
+    "@stylistic/comma-spacing": [
+      0
+    ],
+    "@stylistic/comma-style": [
+      0
+    ],
+    "@stylistic/computed-property-spacing": [
+      0
+    ],
+    "@stylistic/dot-location": [
+      0
+    ],
+    "@stylistic/eol-last": [
+      0
+    ],
+    "@stylistic/func-call-spacing": [
+      0
+    ],
+    "@stylistic/function-call-argument-newline": [
+      0
+    ],
+    "@stylistic/function-call-spacing": [
+      0
+    ],
+    "@stylistic/function-paren-newline": [
+      0
+    ],
+    "@stylistic/generator-star-spacing": [
+      0
+    ],
+    "@stylistic/implicit-arrow-linebreak": [
+      0
+    ],
+    "@stylistic/indent": [
+      0
+    ],
+    "@stylistic/jsx-quotes": [
+      0
+    ],
+    "@stylistic/key-spacing": [
+      0
+    ],
+    "@stylistic/keyword-spacing": [
+      0
+    ],
+    "@stylistic/linebreak-style": [
+      0
+    ],
+    "@stylistic/max-statements-per-line": [
+      0
+    ],
+    "@stylistic/multiline-ternary": [
+      0
+    ],
+    "@stylistic/new-parens": [
+      0
+    ],
+    "@stylistic/newline-per-chained-call": [
+      0
+    ],
+    "@stylistic/no-extra-parens": [
+      0
+    ],
+    "@stylistic/no-extra-semi": [
+      0
+    ],
+    "@stylistic/no-floating-decimal": [
+      0
+    ],
+    "@stylistic/no-mixed-spaces-and-tabs": [
+      0
+    ],
+    "@stylistic/no-multi-spaces": [
+      0
+    ],
+    "@stylistic/no-multiple-empty-lines": [
+      0
+    ],
+    "@stylistic/no-trailing-spaces": [
+      0
+    ],
+    "@stylistic/no-whitespace-before-property": [
+      0
+    ],
+    "@stylistic/nonblock-statement-body-position": [
+      0
+    ],
+    "@stylistic/object-curly-newline": [
+      0
+    ],
+    "@stylistic/object-curly-spacing": [
+      0
+    ],
+    "@stylistic/object-property-newline": [
+      0
+    ],
+    "@stylistic/one-var-declaration-per-line": [
+      0
+    ],
+    "@stylistic/operator-linebreak": [
+      0
+    ],
+    "@stylistic/padded-blocks": [
+      0
+    ],
+    "@stylistic/quote-props": [
+      0
+    ],
+    "@stylistic/rest-spread-spacing": [
+      0
+    ],
+    "@stylistic/semi": [
+      0
+    ],
+    "@stylistic/semi-spacing": [
+      0
+    ],
+    "@stylistic/semi-style": [
+      0
+    ],
+    "@stylistic/space-before-blocks": [
+      0
+    ],
+    "@stylistic/space-before-function-paren": [
+      0
+    ],
+    "@stylistic/space-in-parens": [
+      0
+    ],
+    "@stylistic/space-infix-ops": [
+      0
+    ],
+    "@stylistic/space-unary-ops": [
+      0
+    ],
+    "@stylistic/switch-colon-spacing": [
+      0
+    ],
+    "@stylistic/template-curly-spacing": [
+      0
+    ],
+    "@stylistic/template-tag-spacing": [
+      0
+    ],
+    "@stylistic/wrap-iife": [
+      0
+    ],
+    "@stylistic/wrap-regex": [
+      0
+    ],
+    "@stylistic/yield-star-spacing": [
+      0
+    ],
+    "@stylistic/member-delimiter-style": [
+      0
+    ],
+    "@stylistic/type-annotation-spacing": [
+      0
+    ],
+    "@stylistic/jsx-child-element-spacing": [
+      0
+    ],
+    "@stylistic/jsx-closing-bracket-location": [
+      0
+    ],
+    "@stylistic/jsx-closing-tag-location": [
+      0
+    ],
+    "@stylistic/jsx-curly-newline": [
+      0
+    ],
+    "@stylistic/jsx-curly-spacing": [
+      0
+    ],
+    "@stylistic/jsx-equals-spacing": [
+      0
+    ],
+    "@stylistic/jsx-first-prop-new-line": [
+      0
+    ],
+    "@stylistic/jsx-indent": [
+      0
+    ],
+    "@stylistic/jsx-indent-props": [
+      0
+    ],
+    "@stylistic/jsx-max-props-per-line": [
+      0
+    ],
+    "@stylistic/jsx-newline": [
+      0
+    ],
+    "@stylistic/jsx-one-expression-per-line": [
+      0
+    ],
+    "@stylistic/jsx-props-no-multi-spaces": [
+      0
+    ],
+    "@stylistic/jsx-tag-spacing": [
+      0
+    ],
+    "@stylistic/jsx-wrap-multilines": [
+      0
+    ],
+    "@stylistic/indent-binary-ops": [
+      0
+    ],
+    "@stylistic/type-generic-spacing": [
+      0
+    ],
+    "@stylistic/type-named-tuple-spacing": [
+      0
+    ],
+    "@stylistic/js/array-bracket-newline": [
+      0
+    ],
+    "@stylistic/js/array-bracket-spacing": [
+      0
+    ],
+    "@stylistic/js/array-element-newline": [
+      0
+    ],
+    "@stylistic/js/arrow-parens": [
+      0
+    ],
+    "@stylistic/js/arrow-spacing": [
+      0
+    ],
+    "@stylistic/js/block-spacing": [
+      0
+    ],
+    "@stylistic/js/brace-style": [
+      0
+    ],
+    "@stylistic/js/comma-dangle": [
+      0
+    ],
+    "@stylistic/js/comma-spacing": [
+      0
+    ],
+    "@stylistic/js/comma-style": [
+      0
+    ],
+    "@stylistic/js/computed-property-spacing": [
+      0
+    ],
+    "@stylistic/js/dot-location": [
+      0
+    ],
+    "@stylistic/js/eol-last": [
+      0
+    ],
+    "@stylistic/js/func-call-spacing": [
+      0
+    ],
+    "@stylistic/js/function-call-argument-newline": [
+      0
+    ],
+    "@stylistic/js/function-call-spacing": [
+      0
+    ],
+    "@stylistic/js/function-paren-newline": [
+      0
+    ],
+    "@stylistic/js/generator-star-spacing": [
+      0
+    ],
+    "@stylistic/js/implicit-arrow-linebreak": [
+      0
+    ],
+    "@stylistic/js/indent": [
+      0
+    ],
+    "@stylistic/js/jsx-quotes": [
+      0
+    ],
+    "@stylistic/js/key-spacing": [
+      0
+    ],
+    "@stylistic/js/keyword-spacing": [
+      0
+    ],
+    "@stylistic/js/linebreak-style": [
+      0
+    ],
+    "@stylistic/js/max-statements-per-line": [
+      0
+    ],
+    "@stylistic/js/multiline-ternary": [
+      0
+    ],
+    "@stylistic/js/new-parens": [
+      0
+    ],
+    "@stylistic/js/newline-per-chained-call": [
+      0
+    ],
+    "@stylistic/js/no-extra-parens": [
+      0
+    ],
+    "@stylistic/js/no-extra-semi": [
+      0
+    ],
+    "@stylistic/js/no-floating-decimal": [
+      0
+    ],
+    "@stylistic/js/no-mixed-spaces-and-tabs": [
+      0
+    ],
+    "@stylistic/js/no-multi-spaces": [
+      0
+    ],
+    "@stylistic/js/no-multiple-empty-lines": [
+      0
+    ],
+    "@stylistic/js/no-trailing-spaces": [
+      0
+    ],
+    "@stylistic/js/no-whitespace-before-property": [
+      0
+    ],
+    "@stylistic/js/nonblock-statement-body-position": [
+      0
+    ],
+    "@stylistic/js/object-curly-newline": [
+      0
+    ],
+    "@stylistic/js/object-curly-spacing": [
+      0
+    ],
+    "@stylistic/js/object-property-newline": [
+      0
+    ],
+    "@stylistic/js/one-var-declaration-per-line": [
+      0
+    ],
+    "@stylistic/js/operator-linebreak": [
+      0
+    ],
+    "@stylistic/js/padded-blocks": [
+      0
+    ],
+    "@stylistic/js/quote-props": [
+      0
+    ],
+    "@stylistic/js/rest-spread-spacing": [
+      0
+    ],
+    "@stylistic/js/semi": [
+      0
+    ],
+    "@stylistic/js/semi-spacing": [
+      0
+    ],
+    "@stylistic/js/semi-style": [
+      0
+    ],
+    "@stylistic/js/space-before-blocks": [
+      0
+    ],
+    "@stylistic/js/space-before-function-paren": [
+      0
+    ],
+    "@stylistic/js/space-in-parens": [
+      0
+    ],
+    "@stylistic/js/space-infix-ops": [
+      0
+    ],
+    "@stylistic/js/space-unary-ops": [
+      0
+    ],
+    "@stylistic/js/switch-colon-spacing": [
+      0
+    ],
+    "@stylistic/js/template-curly-spacing": [
+      0
+    ],
+    "@stylistic/js/template-tag-spacing": [
+      0
+    ],
+    "@stylistic/js/wrap-iife": [
+      0
+    ],
+    "@stylistic/js/wrap-regex": [
+      0
+    ],
+    "@stylistic/js/yield-star-spacing": [
+      0
+    ],
+    "@stylistic/ts/block-spacing": [
+      0
+    ],
+    "@stylistic/ts/brace-style": [
+      2
+    ],
+    "@stylistic/ts/comma-dangle": [
+      2,
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "enums": "always-multiline",
+        "functions": "ignore",
+        "generics": "always-multiline"
+      }
+    ],
+    "@stylistic/ts/comma-spacing": [
+      2,
+      {
+        "before": false,
+        "after": true
+      }
+    ],
+    "@stylistic/ts/func-call-spacing": [
+      2
+    ],
+    "@stylistic/ts/function-call-spacing": [
+      0
+    ],
+    "@stylistic/ts/indent": [
+      0
+    ],
+    "@stylistic/ts/key-spacing": [
+      0
+    ],
+    "@stylistic/ts/keyword-spacing": [
+      2,
+      {
+        "before": true,
+        "after": true
+      }
+    ],
+    "@stylistic/ts/member-delimiter-style": [
+      2
+    ],
+    "@stylistic/ts/no-extra-parens": [
+      0
+    ],
+    "@stylistic/ts/no-extra-semi": [
+      2
+    ],
+    "@stylistic/ts/object-curly-spacing": [
+      0
+    ],
+    "@stylistic/ts/semi": [
+      2
+    ],
+    "@stylistic/ts/space-before-blocks": [
+      0
+    ],
+    "@stylistic/ts/space-before-function-paren": [
+      2,
+      {
+        "anonymous": "always",
+        "named": "never",
+        "asyncArrow": "always"
+      }
+    ],
+    "@stylistic/ts/space-infix-ops": [
+      2
+    ],
+    "@stylistic/ts/type-annotation-spacing": [
+      2
+    ],
+    "@stylistic/jsx/jsx-child-element-spacing": [
+      0
+    ],
+    "@stylistic/jsx/jsx-closing-bracket-location": [
+      0
+    ],
+    "@stylistic/jsx/jsx-closing-tag-location": [
+      0
+    ],
+    "@stylistic/jsx/jsx-curly-newline": [
+      0
+    ],
+    "@stylistic/jsx/jsx-curly-spacing": [
+      0
+    ],
+    "@stylistic/jsx/jsx-equals-spacing": [
+      0
+    ],
+    "@stylistic/jsx/jsx-first-prop-new-line": [
+      0
+    ],
+    "@stylistic/jsx/jsx-indent": [
+      0
+    ],
+    "@stylistic/jsx/jsx-indent-props": [
+      0
+    ],
+    "@stylistic/jsx/jsx-max-props-per-line": [
       0
     ],
     "@typescript-eslint/block-spacing": [
@@ -559,9 +1122,6 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
     "react/jsx-space-before-closing": [
       0
     ],
-    "prettier/prettier": [
-      2
-    ],
     "arrow-body-style": [
       0,
       "as-needed"
@@ -572,6 +1132,9 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
         "allowNamedFunctions": false,
         "allowUnboundThis": true
       }
+    ],
+    "prettier/prettier": [
+      2
     ],
     "constructor-super": [
       2
@@ -912,6 +1475,9 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
         }
       }
     ],
+    "@typescript-eslint/no-misused-spread": [
+      2
+    ],
     "@typescript-eslint/no-mixed-enums": [
       2
     ],
@@ -952,6 +1518,9 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
       2
     ],
     "@typescript-eslint/no-unnecessary-type-constraint": [
+      2
+    ],
+    "@typescript-eslint/no-unnecessary-type-conversion": [
       2
     ],
     "@typescript-eslint/no-unnecessary-type-parameters": [
@@ -1008,6 +1577,9 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
       0
     ],
     "@typescript-eslint/no-useless-constructor": [
+      2
+    ],
+    "@typescript-eslint/no-useless-default-assignment": [
       2
     ],
     "@typescript-eslint/no-wrapper-object-types": [
@@ -1246,6 +1818,7 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
         ],
         "newlines-between": "always",
         "distinctGroup": true,
+        "sortTypesGroup": false,
         "named": false,
         "warnOnUnassignedImports": false
       }
@@ -1273,9 +1846,6 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
       2
     ],
     "@typescript-eslint/no-restricted-types": [
-      2
-    ],
-    "@stylistic/ts/brace-style": [
       2
     ],
     "@typescript-eslint/consistent-indexed-object-style": [
@@ -1310,21 +1880,8 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
         "accessibility": "no-public"
       }
     ],
-    "@stylistic/ts/func-call-spacing": [
-      2
-    ],
     "@typescript-eslint/init-declarations": [
       0
-    ],
-    "@stylistic/ts/keyword-spacing": [
-      2,
-      {
-        "before": true,
-        "after": true
-      }
-    ],
-    "@stylistic/ts/member-delimiter-style": [
-      2
     ],
     "@typescript-eslint/no-confusing-non-null-assertion": [
       2
@@ -1419,15 +1976,6 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
     "@typescript-eslint/require-array-sort-compare": [
       2
     ],
-    "@stylistic/ts/semi": [
-      2
-    ],
-    "@stylistic/ts/type-annotation-spacing": [
-      2
-    ],
-    "@stylistic/ts/space-infix-ops": [
-      2
-    ],
     "@typescript-eslint/sort-type-union-intersection-members": [
       0
     ],
@@ -1437,21 +1985,11 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
     "@typescript-eslint/explicit-module-boundary-types": [
       2
     ],
-    "@stylistic/ts/no-extra-semi": [
-      2
-    ],
     "@typescript-eslint/ban-tslint-comment": [
       2
     ],
     "@typescript-eslint/class-literal-property-style": [
       2
-    ],
-    "@stylistic/ts/comma-spacing": [
-      2,
-      {
-        "before": false,
-        "after": true
-      }
     ],
     "@typescript-eslint/no-dupe-class-members": [
       2
@@ -1474,18 +2012,6 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
     ],
     "@typescript-eslint/no-type-alias": [
       0
-    ],
-    "@stylistic/ts/comma-dangle": [
-      2,
-      {
-        "arrays": "always-multiline",
-        "objects": "always-multiline",
-        "imports": "always-multiline",
-        "exports": "always-multiline",
-        "enums": "always-multiline",
-        "functions": "ignore",
-        "generics": "always-multiline"
-      }
     ],
     "@typescript-eslint/naming-convention": [
       2,
@@ -1606,23 +2132,15 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
         "exceptAfterSingleLine": true,
         "exceptAfterOverload": true
       }
-    ],
-    "@stylistic/ts/space-before-function-paren": [
-      2,
-      {
-        "anonymous": "always",
-        "named": "never",
-        "asyncArrow": "always"
-      }
     ]
   },
   "plugins": [
     "@",
-    "prettier:eslint-plugin-prettier@5.2.1",
-    "import:eslint-plugin-import@2.31.0",
-    "@typescript-eslint:@typescript-eslint/eslint-plugin@8.17.0",
+    "prettier:eslint-plugin-prettier@5.5.5",
+    "import:eslint-plugin-import@2.32.0",
+    "@typescript-eslint:@typescript-eslint/eslint-plugin@8.58.1",
     "react",
-    "react-hooks",
+    "react-hooks:eslint-plugin-react-hooks",
     "@stylistic/js",
     "@stylistic/ts",
     "@stylistic/jsx"
@@ -1631,10 +2149,10 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
   "languageOptions": {
     "sourceType": "module",
     "ecmaVersion": 2025,
-    "parser": "typescript-eslint/parser@8.17.0",
+    "parser": "typescript-eslint/parser@8.58.1",
     "parserOptions": {
       "projectService": true,
-      "tsconfigRootDir": "/Users/aleksd/dev/3fs-internal/eslint-config/configs",
+      "tsconfigRootDir": "/Users/markop/Development/3fs/eslint-config/configs",
       "ecmaFeatures": {
         "jsx": true
       },
@@ -1724,6 +2242,7 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
       "PerformanceResourceTiming": false,
       "PerformanceTiming": false,
       "postMessage": false,
+      "Promise": false,
       "queueMicrotask": false,
       "ReadableByteStreamController": false,
       "ReadableStream": false,
@@ -1764,184 +2283,101 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
       "XMLHttpRequest": false,
       "AbortController": false,
       "AbortSignal": false,
-      "AbsoluteOrientationSensor": false,
-      "AbstractRange": false,
-      "Accelerometer": false,
-      "ai": false,
-      "AI": false,
-      "AITextSession": false,
       "alert": false,
       "AnalyserNode": false,
       "Animation": false,
-      "AnimationEffect": false,
+      "AnimationEffectReadOnly": false,
+      "AnimationEffectTiming": false,
+      "AnimationEffectTimingReadOnly": false,
       "AnimationEvent": false,
       "AnimationPlaybackEvent": false,
       "AnimationTimeline": false,
+      "ApplicationCache": false,
+      "ApplicationCacheErrorEvent": false,
       "Attr": false,
       "Audio": false,
       "AudioBuffer": false,
       "AudioBufferSourceNode": false,
       "AudioContext": false,
-      "AudioData": false,
-      "AudioDecoder": false,
       "AudioDestinationNode": false,
-      "AudioEncoder": false,
       "AudioListener": false,
       "AudioNode": false,
       "AudioParam": false,
-      "AudioParamMap": false,
       "AudioProcessingEvent": false,
       "AudioScheduledSourceNode": false,
-      "AudioSinkInfo": false,
-      "AudioWorklet": false,
       "AudioWorkletGlobalScope": false,
       "AudioWorkletNode": false,
       "AudioWorkletProcessor": false,
-      "AuthenticatorAssertionResponse": false,
-      "AuthenticatorAttestationResponse": false,
-      "AuthenticatorResponse": false,
-      "BackgroundFetchManager": false,
-      "BackgroundFetchRecord": false,
-      "BackgroundFetchRegistration": false,
-      "BarcodeDetector": false,
       "BarProp": false,
       "BaseAudioContext": false,
       "BatteryManager": false,
       "BeforeUnloadEvent": false,
       "BiquadFilterNode": false,
       "BlobEvent": false,
-      "Bluetooth": false,
-      "BluetoothCharacteristicProperties": false,
-      "BluetoothDevice": false,
-      "BluetoothRemoteGATTCharacteristic": false,
-      "BluetoothRemoteGATTDescriptor": false,
-      "BluetoothRemoteGATTServer": false,
-      "BluetoothRemoteGATTService": false,
-      "BluetoothUUID": false,
       "blur": false,
-      "BrowserCaptureMediaStreamTrack": false,
+      "BudgetService": false,
       "cancelAnimationFrame": false,
       "cancelIdleCallback": false,
-      "CanvasCaptureMediaStream": false,
       "CanvasCaptureMediaStreamTrack": false,
       "CanvasGradient": false,
       "CanvasPattern": false,
       "CanvasRenderingContext2D": false,
-      "CaptureController": false,
-      "CaretPosition": false,
-      "CDATASection": false,
       "ChannelMergerNode": false,
       "ChannelSplitterNode": false,
-      "ChapterInformation": false,
-      "CharacterBoundsUpdateEvent": false,
       "CharacterData": false,
       "clientInformation": false,
-      "Clipboard": false,
       "ClipboardEvent": false,
       "ClipboardItem": false,
       "closed": false,
       "CloseEvent": false,
-      "CloseWatcher": false,
       "Comment": false,
       "CompositionEvent": false,
       "confirm": false,
       "ConstantSourceNode": false,
-      "ContentVisibilityAutoStateChangeEvent": false,
       "ConvolverNode": false,
-      "CookieChangeEvent": false,
-      "CookieDeprecationLabel": false,
-      "cookieStore": false,
-      "CookieStore": false,
-      "CookieStoreManager": false,
       "createImageBitmap": false,
       "Credential": false,
-      "credentialless": false,
       "CredentialsContainer": false,
-      "CropTarget": false,
-      "crossOriginIsolated": false,
       "CSS": false,
-      "CSSAnimation": false,
       "CSSConditionRule": false,
-      "CSSContainerRule": false,
-      "CSSCounterStyleRule": false,
       "CSSFontFaceRule": false,
-      "CSSFontFeatureValuesRule": false,
-      "CSSFontPaletteValuesRule": false,
       "CSSGroupingRule": false,
-      "CSSImageValue": false,
       "CSSImportRule": false,
       "CSSKeyframeRule": false,
       "CSSKeyframesRule": false,
-      "CSSKeywordValue": false,
-      "CSSLayerBlockRule": false,
-      "CSSLayerStatementRule": false,
-      "CSSMarginRule": false,
-      "CSSMathClamp": false,
-      "CSSMathInvert": false,
-      "CSSMathMax": false,
-      "CSSMathMin": false,
-      "CSSMathNegate": false,
-      "CSSMathProduct": false,
-      "CSSMathSum": false,
-      "CSSMathValue": false,
       "CSSMatrixComponent": false,
       "CSSMediaRule": false,
       "CSSNamespaceRule": false,
-      "CSSNestedDeclarations": false,
-      "CSSNumericArray": false,
-      "CSSNumericValue": false,
-      "CSSPageDescriptors": false,
       "CSSPageRule": false,
       "CSSPerspective": false,
-      "CSSPositionTryDescriptors": false,
-      "CSSPositionTryRule": false,
-      "CSSPositionValue": false,
-      "CSSPropertyRule": false,
       "CSSRotate": false,
       "CSSRule": false,
       "CSSRuleList": false,
       "CSSScale": false,
-      "CSSScopeRule": false,
       "CSSSkew": false,
       "CSSSkewX": false,
       "CSSSkewY": false,
-      "CSSStartingStyleRule": false,
       "CSSStyleDeclaration": false,
       "CSSStyleRule": false,
       "CSSStyleSheet": false,
-      "CSSStyleValue": false,
       "CSSSupportsRule": false,
-      "CSSTransformComponent": false,
       "CSSTransformValue": false,
-      "CSSTransition": false,
       "CSSTranslate": false,
-      "CSSUnitValue": false,
-      "CSSUnparsedValue": false,
-      "CSSVariableReferenceValue": false,
-      "CSSViewTransitionRule": false,
-      "currentFrame": false,
-      "currentTime": false,
       "CustomElementRegistry": false,
       "customElements": false,
-      "CustomStateSet": false,
       "DataTransfer": false,
       "DataTransferItem": false,
       "DataTransferItemList": false,
+      "defaultstatus": false,
+      "defaultStatus": false,
       "DelayNode": false,
-      "DelegatedInkTrailPresenter": false,
       "DeviceMotionEvent": false,
-      "DeviceMotionEventAcceleration": false,
-      "DeviceMotionEventRotationRate": false,
       "DeviceOrientationEvent": false,
       "devicePixelRatio": false,
       "dispatchEvent": false,
       "document": false,
       "Document": false,
       "DocumentFragment": false,
-      "documentPictureInPicture": false,
-      "DocumentPictureInPicture": false,
-      "DocumentPictureInPictureEvent": false,
-      "DocumentTimeline": false,
       "DocumentType": false,
       "DOMError": false,
       "DOMException": false,
@@ -1960,112 +2396,28 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
       "DOMTokenList": false,
       "DragEvent": false,
       "DynamicsCompressorNode": false,
-      "EditContext": false,
       "Element": false,
-      "ElementInternals": false,
-      "EncodedAudioChunk": false,
-      "EncodedVideoChunk": false,
       "event": false,
-      "EventCounts": false,
       "EventSource": false,
       "EventTarget": false,
       "external": false,
-      "External": false,
-      "EyeDropper": false,
-      "FeaturePolicy": false,
-      "FederatedCredential": false,
-      "fence": false,
-      "Fence": false,
-      "FencedFrameConfig": false,
-      "fetchLater": false,
-      "FetchLaterResult": false,
       "FileList": false,
       "FileReader": false,
-      "FileSystem": false,
-      "FileSystemDirectoryEntry": false,
-      "FileSystemDirectoryHandle": false,
-      "FileSystemDirectoryReader": false,
-      "FileSystemEntry": false,
-      "FileSystemFileEntry": false,
-      "FileSystemFileHandle": false,
-      "FileSystemHandle": false,
-      "FileSystemWritableFileStream": false,
       "find": false,
-      "Float16Array": false,
       "focus": false,
       "FocusEvent": false,
-      "FontData": false,
       "FontFace": false,
-      "FontFaceSet": false,
       "FontFaceSetLoadEvent": false,
       "FormDataEvent": false,
-      "FragmentDirective": false,
       "frameElement": false,
       "frames": false,
       "GainNode": false,
       "Gamepad": false,
-      "GamepadAxisMoveEvent": false,
       "GamepadButton": false,
-      "GamepadButtonEvent": false,
       "GamepadEvent": false,
-      "GamepadHapticActuator": false,
-      "GamepadPose": false,
-      "Geolocation": false,
-      "GeolocationCoordinates": false,
-      "GeolocationPosition": false,
-      "GeolocationPositionError": false,
       "getComputedStyle": false,
-      "getScreenDetails": false,
       "getSelection": false,
-      "GPU": false,
-      "GPUAdapter": false,
-      "GPUAdapterInfo": false,
-      "GPUBindGroup": false,
-      "GPUBindGroupLayout": false,
-      "GPUBuffer": false,
-      "GPUBufferUsage": false,
-      "GPUCanvasContext": false,
-      "GPUColorWrite": false,
-      "GPUCommandBuffer": false,
-      "GPUCommandEncoder": false,
-      "GPUCompilationInfo": false,
-      "GPUCompilationMessage": false,
-      "GPUComputePassEncoder": false,
-      "GPUComputePipeline": false,
-      "GPUDevice": false,
-      "GPUDeviceLostInfo": false,
-      "GPUError": false,
-      "GPUExternalTexture": false,
-      "GPUInternalError": false,
-      "GPUMapMode": false,
-      "GPUOutOfMemoryError": false,
-      "GPUPipelineError": false,
-      "GPUPipelineLayout": false,
-      "GPUQuerySet": false,
-      "GPUQueue": false,
-      "GPURenderBundle": false,
-      "GPURenderBundleEncoder": false,
-      "GPURenderPassEncoder": false,
-      "GPURenderPipeline": false,
-      "GPUSampler": false,
-      "GPUShaderModule": false,
-      "GPUShaderStage": false,
-      "GPUSupportedFeatures": false,
-      "GPUSupportedLimits": false,
-      "GPUTexture": false,
-      "GPUTextureUsage": false,
-      "GPUTextureView": false,
-      "GPUUncapturedErrorEvent": false,
-      "GPUValidationError": false,
-      "GravitySensor": false,
-      "Gyroscope": false,
       "HashChangeEvent": false,
-      "HID": false,
-      "HIDConnectionEvent": false,
-      "HIDDevice": false,
-      "HIDInputReportEvent": false,
-      "Highlight": false,
-      "HighlightRegistry": false,
       "history": false,
       "History": false,
       "HTMLAllCollection": false,
@@ -2078,6 +2430,7 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
       "HTMLButtonElement": false,
       "HTMLCanvasElement": false,
       "HTMLCollection": false,
+      "HTMLContentElement": false,
       "HTMLDataElement": false,
       "HTMLDataListElement": false,
       "HTMLDetailsElement": false,
@@ -2088,7 +2441,6 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
       "HTMLDocument": false,
       "HTMLElement": false,
       "HTMLEmbedElement": false,
-      "HTMLFencedFrameElement": false,
       "HTMLFieldSetElement": false,
       "HTMLFontElement": false,
       "HTMLFormControlsCollection": false,
@@ -2127,6 +2479,7 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
       "HTMLQuoteElement": false,
       "HTMLScriptElement": false,
       "HTMLSelectElement": false,
+      "HTMLShadowElement": false,
       "HTMLSlotElement": false,
       "HTMLSourceElement": false,
       "HTMLSpanElement": false,
@@ -2145,57 +2498,33 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
       "HTMLUListElement": false,
       "HTMLUnknownElement": false,
       "HTMLVideoElement": false,
-      "IdentityCredential": false,
-      "IdentityCredentialError": false,
-      "IdentityProvider": false,
       "IdleDeadline": false,
-      "IdleDetector": false,
       "IIRFilterNode": false,
       "Image": false,
       "ImageBitmap": false,
       "ImageBitmapRenderingContext": false,
       "ImageCapture": false,
-      "ImageDecoder": false,
-      "ImageTrack": false,
-      "ImageTrackList": false,
-      "Ink": false,
       "innerHeight": false,
       "innerWidth": false,
-      "InputDeviceCapabilities": false,
-      "InputDeviceInfo": false,
       "InputEvent": false,
       "IntersectionObserver": false,
       "IntersectionObserverEntry": false,
+      "Intl": false,
       "isSecureContext": false,
-      "Keyboard": false,
       "KeyboardEvent": false,
-      "KeyboardLayoutMap": false,
       "KeyframeEffect": false,
-      "LargestContentfulPaint": false,
-      "LaunchParams": false,
-      "launchQueue": false,
-      "LaunchQueue": false,
-      "LayoutShift": false,
-      "LayoutShiftAttribution": false,
+      "KeyframeEffectReadOnly": false,
       "length": false,
-      "LinearAccelerationSensor": false,
       "localStorage": false,
       "Location": false,
       "locationbar": false,
-      "Lock": false,
-      "LockManager": false,
       "matchMedia": false,
-      "MathMLElement": false,
-      "MediaCapabilities": false,
-      "MediaCapabilitiesInfo": false,
       "MediaDeviceInfo": false,
       "MediaDevices": false,
       "MediaElementAudioSourceNode": false,
       "MediaEncryptedEvent": false,
       "MediaError": false,
-      "MediaKeyError": false,
       "MediaKeyMessageEvent": false,
-      "MediaKeys": false,
       "MediaKeySession": false,
       "MediaKeyStatusMap": false,
       "MediaKeySystemAccess": false,
@@ -2204,21 +2533,15 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
       "MediaQueryList": false,
       "MediaQueryListEvent": false,
       "MediaRecorder": false,
-      "MediaRecorderErrorEvent": false,
-      "MediaSession": false,
+      "MediaSettingsRange": false,
       "MediaSource": false,
-      "MediaSourceHandle": false,
       "MediaStream": false,
       "MediaStreamAudioDestinationNode": false,
       "MediaStreamAudioSourceNode": false,
+      "MediaStreamConstraints": false,
       "MediaStreamEvent": false,
       "MediaStreamTrack": false,
-      "MediaStreamTrackAudioSourceNode": false,
-      "MediaStreamTrackAudioStats": false,
       "MediaStreamTrackEvent": false,
-      "MediaStreamTrackGenerator": false,
-      "MediaStreamTrackProcessor": false,
-      "MediaStreamTrackVideoStats": false,
       "menubar": false,
       "MIDIAccess": false,
       "MIDIConnectionEvent": false,
@@ -2230,9 +2553,6 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
       "MIDIPort": false,
       "MimeType": false,
       "MimeTypeArray": false,
-      "model": false,
-      "ModelGenericSession": false,
-      "ModelManager": false,
       "MouseEvent": false,
       "moveBy": false,
       "moveTo": false,
@@ -2240,60 +2560,37 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
       "MutationObserver": false,
       "MutationRecord": false,
       "NamedNodeMap": false,
-      "NavigateEvent": false,
-      "navigation": false,
-      "Navigation": false,
-      "NavigationActivation": false,
-      "NavigationCurrentEntryChangeEvent": false,
-      "NavigationDestination": false,
-      "NavigationHistoryEntry": false,
       "NavigationPreloadManager": false,
-      "NavigationTransition": false,
       "Navigator": false,
-      "NavigatorLogin": false,
-      "NavigatorManagedData": false,
       "NavigatorUAData": false,
       "NetworkInformation": false,
       "Node": false,
       "NodeFilter": false,
       "NodeIterator": false,
       "NodeList": false,
-      "NotifyPaintEvent": false,
-      "NotRestoredReasonDetails": false,
-      "NotRestoredReasons": false,
       "OfflineAudioCompletionEvent": false,
       "OfflineAudioContext": false,
       "offscreenBuffering": false,
-      "OffscreenCanvas": false,
+      "OffscreenCanvas": true,
       "OffscreenCanvasRenderingContext2D": false,
       "onabort": true,
       "onafterprint": true,
-      "onanimationcancel": true,
       "onanimationend": true,
       "onanimationiteration": true,
       "onanimationstart": true,
       "onappinstalled": true,
       "onauxclick": true,
-      "onbeforeinput": true,
       "onbeforeinstallprompt": true,
-      "onbeforematch": true,
       "onbeforeprint": true,
-      "onbeforetoggle": true,
       "onbeforeunload": true,
-      "onbeforexrselect": true,
       "onblur": true,
       "oncancel": true,
       "oncanplay": true,
       "oncanplaythrough": true,
       "onchange": true,
       "onclick": true,
-      "oncontentvisibilityautostatechange": true,
-      "oncontextlost": true,
       "oncontextmenu": true,
-      "oncontextrestored": true,
-      "oncopy": true,
       "oncuechange": true,
-      "oncut": true,
       "ondblclick": true,
       "ondevicemotion": true,
       "ondeviceorientation": true,
@@ -2309,9 +2606,6 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
       "onemptied": true,
       "onended": true,
       "onfocus": true,
-      "onformdata": true,
-      "ongamepadconnected": true,
-      "ongamepaddisconnected": true,
       "ongotpointercapture": true,
       "onhashchange": true,
       "oninput": true,
@@ -2333,10 +2627,7 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
       "onmouseup": true,
       "onmousewheel": true,
       "onpagehide": true,
-      "onpagereveal": true,
       "onpageshow": true,
-      "onpageswap": true,
-      "onpaste": true,
       "onpause": true,
       "onplay": true,
       "onplaying": true,
@@ -2347,7 +2638,6 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
       "onpointermove": true,
       "onpointerout": true,
       "onpointerover": true,
-      "onpointerrawupdate": true,
       "onpointerup": true,
       "onpopstate": true,
       "onprogress": true,
@@ -2355,73 +2645,48 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
       "onreset": true,
       "onresize": true,
       "onscroll": true,
-      "onscrollend": true,
-      "onscrollsnapchange": true,
-      "onscrollsnapchanging": true,
       "onsearch": true,
-      "onsecuritypolicyviolation": true,
       "onseeked": true,
       "onseeking": true,
       "onselect": true,
-      "onselectionchange": true,
-      "onselectstart": true,
-      "onslotchange": true,
       "onstalled": true,
       "onstorage": true,
       "onsubmit": true,
       "onsuspend": true,
       "ontimeupdate": true,
       "ontoggle": true,
-      "ontransitioncancel": true,
       "ontransitionend": true,
-      "ontransitionrun": true,
-      "ontransitionstart": true,
       "onunload": true,
       "onvolumechange": true,
       "onwaiting": true,
       "onwheel": true,
       "open": false,
+      "openDatabase": false,
       "opener": false,
       "Option": false,
-      "OrientationSensor": false,
       "origin": false,
-      "originAgentCluster": false,
       "OscillatorNode": false,
-      "OTPCredential": false,
       "outerHeight": false,
       "outerWidth": false,
       "OverconstrainedError": false,
-      "PageRevealEvent": false,
-      "PageSwapEvent": false,
       "PageTransitionEvent": false,
       "pageXOffset": false,
       "pageYOffset": false,
       "PannerNode": false,
       "parent": false,
-      "PasswordCredential": false,
       "Path2D": false,
       "PaymentAddress": false,
-      "PaymentManager": false,
-      "PaymentMethodChangeEvent": false,
       "PaymentRequest": false,
       "PaymentRequestUpdateEvent": false,
       "PaymentResponse": false,
-      "PerformanceElementTiming": false,
-      "PerformanceEventTiming": false,
-      "PerformanceLongAnimationFrameTiming": false,
       "PerformanceLongTaskTiming": false,
       "PerformanceNavigationTiming": false,
       "PerformancePaintTiming": false,
-      "PerformanceScriptTiming": false,
-      "PerformanceServerTiming": false,
-      "PeriodicSyncManager": false,
       "PeriodicWave": false,
       "Permissions": false,
       "PermissionStatus": false,
-      "PERSISTENT": false,
       "personalbar": false,
-      "PictureInPictureEvent": false,
-      "PictureInPictureWindow": false,
+      "PhotoCapabilities": false,
       "Plugin": false,
       "PluginArray": false,
       "PointerEvent": false,
@@ -2434,65 +2699,43 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
       "PresentationConnectionList": false,
       "PresentationReceiver": false,
       "PresentationRequest": false,
-      "PressureObserver": false,
-      "PressureRecord": false,
       "print": false,
       "ProcessingInstruction": false,
-      "Profiler": false,
       "ProgressEvent": false,
       "PromiseRejectionEvent": false,
       "prompt": false,
-      "ProtectedAudience": false,
-      "PublicKeyCredential": false,
       "PushManager": false,
       "PushSubscription": false,
       "PushSubscriptionOptions": false,
-      "queryLocalFonts": false,
       "RadioNodeList": false,
       "Range": false,
       "registerProcessor": false,
-      "RelativeOrientationSensor": false,
       "RemotePlayback": false,
       "reportError": false,
-      "ReportingObserver": false,
       "requestAnimationFrame": false,
       "requestIdleCallback": false,
       "resizeBy": false,
       "ResizeObserver": false,
       "ResizeObserverEntry": false,
-      "ResizeObserverSize": false,
       "resizeTo": false,
       "RTCCertificate": false,
       "RTCDataChannel": false,
       "RTCDataChannelEvent": false,
       "RTCDtlsTransport": false,
-      "RTCDTMFSender": false,
-      "RTCDTMFToneChangeEvent": false,
-      "RTCEncodedAudioFrame": false,
-      "RTCEncodedVideoFrame": false,
-      "RTCError": false,
-      "RTCErrorEvent": false,
       "RTCIceCandidate": false,
+      "RTCIceGatherer": false,
       "RTCIceTransport": false,
       "RTCPeerConnection": false,
-      "RTCPeerConnectionIceErrorEvent": false,
       "RTCPeerConnectionIceEvent": false,
+      "RTCRtpContributingSource": false,
       "RTCRtpReceiver": false,
-      "RTCRtpScriptTransform": false,
       "RTCRtpSender": false,
-      "RTCRtpTransceiver": false,
       "RTCSctpTransport": false,
       "RTCSessionDescription": false,
       "RTCStatsReport": false,
       "RTCTrackEvent": false,
-      "sampleRate": false,
-      "scheduler": false,
-      "Scheduler": false,
-      "Scheduling": false,
       "screen": false,
       "Screen": false,
-      "ScreenDetailed": false,
-      "ScreenDetails": false,
       "screenLeft": false,
       "ScreenOrientation": false,
       "screenTop": false,
@@ -2502,48 +2745,29 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
       "scroll": false,
       "scrollbars": false,
       "scrollBy": false,
-      "ScrollTimeline": false,
       "scrollTo": false,
       "scrollX": false,
       "scrollY": false,
       "SecurityPolicyViolationEvent": false,
       "Selection": false,
-      "Sensor": false,
-      "SensorErrorEvent": false,
-      "Serial": false,
-      "SerialPort": false,
       "sessionStorage": false,
       "ShadowRoot": false,
-      "sharedStorage": false,
-      "SharedStorage": false,
-      "SharedStorageWorklet": false,
       "SharedWorker": false,
-      "showDirectoryPicker": false,
-      "showOpenFilePicker": false,
-      "showSaveFilePicker": false,
-      "SnapEvent": false,
       "SourceBuffer": false,
       "SourceBufferList": false,
       "speechSynthesis": false,
-      "SpeechSynthesis": false,
-      "SpeechSynthesisErrorEvent": false,
       "SpeechSynthesisEvent": false,
       "SpeechSynthesisUtterance": false,
-      "SpeechSynthesisVoice": false,
       "StaticRange": false,
       "status": false,
       "statusbar": false,
       "StereoPannerNode": false,
       "stop": false,
       "Storage": false,
-      "StorageBucket": false,
-      "StorageBucketManager": false,
       "StorageEvent": false,
       "StorageManager": false,
       "structuredClone": false,
       "styleMedia": false,
-      "StylePropertyMap": false,
-      "StylePropertyMapReadOnly": false,
       "StyleSheet": false,
       "StyleSheetList": false,
       "SubmitEvent": false,
@@ -2570,6 +2794,7 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
       "SVGComponentTransferFunctionElement": false,
       "SVGDefsElement": false,
       "SVGDescElement": false,
+      "SVGDiscardElement": false,
       "SVGElement": false,
       "SVGEllipseElement": false,
       "SVGFEBlendElement": false,
@@ -2644,23 +2869,14 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
       "SVGUnitTypes": false,
       "SVGUseElement": false,
       "SVGViewElement": false,
-      "SyncManager": false,
       "TaskAttributionTiming": false,
-      "TaskController": false,
-      "TaskPriorityChangeEvent": false,
-      "TaskSignal": false,
-      "TEMPORARY": false,
       "Text": false,
       "TextEvent": false,
-      "TextFormat": false,
-      "TextFormatUpdateEvent": false,
       "TextMetrics": false,
       "TextTrack": false,
       "TextTrackCue": false,
       "TextTrackCueList": false,
       "TextTrackList": false,
-      "TextUpdateEvent": false,
-      "TimeEvent": false,
       "TimeRanges": false,
       "ToggleEvent": false,
       "toolbar": false,
@@ -2671,53 +2887,17 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
       "TrackEvent": false,
       "TransitionEvent": false,
       "TreeWalker": false,
-      "TrustedHTML": false,
-      "TrustedScript": false,
-      "TrustedScriptURL": false,
-      "TrustedTypePolicy": false,
-      "TrustedTypePolicyFactory": false,
-      "trustedTypes": false,
       "UIEvent": false,
-      "URLPattern": false,
-      "USB": false,
-      "USBAlternateInterface": false,
-      "USBConfiguration": false,
-      "USBConnectionEvent": false,
-      "USBDevice": false,
-      "USBEndpoint": false,
-      "USBInterface": false,
-      "USBInTransferResult": false,
-      "USBIsochronousInTransferPacket": false,
-      "USBIsochronousInTransferResult": false,
-      "USBIsochronousOutTransferPacket": false,
-      "USBIsochronousOutTransferResult": false,
-      "USBOutTransferResult": false,
-      "UserActivation": false,
       "ValidityState": false,
-      "VideoColorSpace": false,
-      "VideoDecoder": false,
-      "VideoEncoder": false,
-      "VideoFrame": false,
-      "VideoPlaybackQuality": false,
-      "ViewTimeline": false,
-      "ViewTransition": false,
-      "ViewTransitionTypeSet": false,
-      "VirtualKeyboard": false,
-      "VirtualKeyboardGeometryChangeEvent": false,
-      "VisibilityStateEntry": false,
       "visualViewport": false,
       "VisualViewport": false,
       "VTTCue": false,
-      "VTTRegion": false,
-      "WakeLock": false,
-      "WakeLockSentinel": false,
       "WaveShaperNode": false,
       "WebGL2RenderingContext": false,
       "WebGLActiveInfo": false,
       "WebGLBuffer": false,
       "WebGLContextEvent": false,
       "WebGLFramebuffer": false,
-      "WebGLObject": false,
       "WebGLProgram": false,
       "WebGLQuery": false,
       "WebGLRenderbuffer": false,
@@ -2730,22 +2910,9 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
       "WebGLTransformFeedback": false,
       "WebGLUniformLocation": false,
       "WebGLVertexArrayObject": false,
-      "WebSocketError": false,
-      "WebSocketStream": false,
-      "WebTransport": false,
-      "WebTransportBidirectionalStream": false,
-      "WebTransportDatagramDuplexStream": false,
-      "WebTransportError": false,
-      "WebTransportReceiveStream": false,
-      "WebTransportSendStream": false,
-      "WGSLLanguageFeatures": false,
       "WheelEvent": false,
       "window": false,
       "Window": false,
-      "WindowControlsOverlay": false,
-      "WindowControlsOverlayGeometryChangeEvent": false,
-      "Worklet": false,
-      "WorkletGlobalScope": false,
       "XMLDocument": false,
       "XMLHttpRequestEventTarget": false,
       "XMLHttpRequestUpload": false,
@@ -2754,27 +2921,15 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
       "XPathExpression": false,
       "XPathResult": false,
       "XRAnchor": false,
-      "XRAnchorSet": false,
       "XRBoundedReferenceSpace": false,
-      "XRCamera": false,
       "XRCPUDepthInformation": false,
       "XRDepthInformation": false,
-      "XRDOMOverlayState": false,
       "XRFrame": false,
-      "XRHand": false,
-      "XRHitTestResult": false,
-      "XRHitTestSource": false,
       "XRInputSource": false,
       "XRInputSourceArray": false,
       "XRInputSourceEvent": false,
       "XRInputSourcesChangeEvent": false,
-      "XRJointPose": false,
-      "XRJointSpace": false,
-      "XRLayer": false,
-      "XRLightEstimate": false,
-      "XRLightProbe": false,
       "XRPose": false,
-      "XRRay": false,
       "XRReferenceSpace": false,
       "XRReferenceSpaceEvent": false,
       "XRRenderState": false,
@@ -2783,8 +2938,6 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
       "XRSessionEvent": false,
       "XRSpace": false,
       "XRSystem": false,
-      "XRTransientInputHitTestResult": false,
-      "XRTransientInputHitTestSource": false,
       "XRView": false,
       "XRViewerPose": false,
       "XRViewport": false,
@@ -2795,3 +2948,4 @@ $ eslint --config ./configs/react-ts.mjs --print-config ./test.mjs
     }
   }
 }
+Done in 1.60s.
